@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLUGMAP version="1">
+  <MAPINFO creator=""></MAPINFO>
+  <BANK id="0" short="" long="" referTo="-1" offset="0">
+    <PAGE id="0" short="" long="" referTo="-1" offset="0">
+      <FADER short="Wet" long="Wet" paramId="1"/>
+      <FADER short="Dry" long="Dry" paramId="2"/>
+      <FADER paramId="-1"/>
+      <FADER short="Delay" long="Delay" paramId="3"/>
+      <FADER short="Size" long="Size" paramId="4"/>
+      <FADER short="Lo-Cut" long="High Pass" paramId="6"/>
+      <FADER short="Hi-Cut" long="Low Pass" paramId="5"/>
+      <FADER paramId="-1"/>
+      <VPOT short="BYPASS" long="On / Off" paramId="0">
+        <STEP value="0" short="0.00" long="0.00"/>
+        <STEP value="1" short="1.00" long="1.00"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

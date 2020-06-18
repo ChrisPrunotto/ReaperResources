@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLUGMAP version="1">
+  <MAPINFO creator=""></MAPINFO>
+  <BANK id="0" short="" long="" referTo="-1" offset="0">
+    <PAGE id="0" short="MAIN" long="MAIN" referTo="-1" offset="0">
+      <FADER short="Gain" long="Gain" paramId="0"/>
+      <FADER short="Output" long="Output gain" paramId="1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Thresh" long="Threshold" paramId="3"/>
+      <FADER short="Analog" long="(Even Harmonics)" paramId="4"/>
+      <FADER short="Mode" long="Mode" paramId="5"/>
+      <FADER paramId="-1"/>
+      <FADER short="Mix" long="Dry/Wet" paramId="2"/>
+      <VPOT short="IO:" long="IO:" paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Shape:" long="Shape:" paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="CLIP" long="Enable clipping" paramId="6">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="1" short="HARM" long="Harmonics" referTo="-1" offset="0">
+      <FADER short="Gain" long="Harmonics - Gain" paramId="8"/>
+      <FADER short="2nd" long="Harmonics - 2nd" paramId="9"/>
+      <FADER short="3rd" long="Harmonics - 3rd" paramId="10"/>
+      <FADER short="4th" long="Harmonics - 4th" paramId="11"/>
+      <FADER short="5th" long="Harmonics - 5th" paramId="12"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT short="Harmon" long="Harmonics - Harmo" paramId="7">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

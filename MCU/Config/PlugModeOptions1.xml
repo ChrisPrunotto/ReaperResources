@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<OPTION_CONFIG version="1">
+  <option name="MCU follow" selectedPos="1" selectedName="same track"/>
+  <option name="GUI follow" selectedPos="1" selectedName="if chain open"/>
+  <option name="ALT SELECT" selectedPos="2" selectedName="open floating"/>
+  <option name="Limit float" selectedPos="0" selectedName="off"/>
+</OPTION_CONFIG>

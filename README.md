@@ -21,3 +21,10 @@ This template is based on the PSE FX Editing Template found at [ProSoundEffects]
   - For the FX (Sound Effects) groups, I opt to put foley/purely diagetic SFX on group A, and work toward my most abstract / designed sounds on E. (I elected to put only 7 channels per group for a total of 8 so that they fit on a single page of my MCU.)
   - For the BG (Background) groups, each group is split into 4-channel A and B layers for easy checkerboarding. 
   - For the MX (Music) group, the group is split into A and B layers for easy checkerboarding. Likewise, this group has a total of 9 channels.
+  
+## MCU
+
+Files related to Mackie Control. This entire directory should be placed in Documents\Reaper in order to function.
+
+- The setup is created on and ideally made for a Behringer X-Touch unit. Each .xml file corresponds to a plugin with the same name, and many are annoted as to function.
+- A rough naming convention is followed where possible. Labels in ALLCAPS indicate a discrete values, and standard caps indicate float paramters. Labels affixed with a colon separator indicate groupings.

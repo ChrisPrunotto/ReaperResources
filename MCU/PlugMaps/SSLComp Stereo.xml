@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLUGMAP version="1">
+  <MAPINFO creator=""></MAPINFO>
+  <BANK id="0" short="Bank 1" long="Bank 1" referTo="-1" offset="0">
+    <PAGE id="0" short="Page 1" long="Page 1" referTo="-1" offset="0">
+      <FADER short="Thresh" long="Thresh" paramId="2"/>
+      <FADER short="Ratio" long="Ratio" paramId="6"/>
+      <FADER short="Attack" long="Attack" paramId="4"/>
+      <FADER short="Releas" long="Release" paramId="5"/>
+      <FADER paramId="-1"/>
+      <FADER short="Makeup" long="Makeup" paramId="3"/>
+      <FADER paramId="-1"/>
+      <FADER short="Rate-S" long="Rate-S" paramId="7"/>
+      <VPOT short="IN" long="IN" paramId="8">
+        <STEP value="0" short="Out " long="Out "/>
+        <STEP value="1" short="In " long="In "/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="ANLG" long="ANLG" paramId="9">
+        <STEP value="0" short="Out " long="Out "/>
+        <STEP value="1" short="In " long="In "/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="AutoFa" long="AutoFade" paramId="10">
+        <STEP value="0" short="Off " long="Off "/>
+        <STEP value="0.5" short="Out " long="Out "/>
+        <STEP value="1" short="In " long="In "/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="1" short="Page 2" long="Page 2" referTo="-1" offset="0">
+      <FADER short="IN" long="IN" paramId="8"/>
+      <FADER short="ANLG" long="ANLG" paramId="9"/>
+      <FADER short="AutoFa" long="AutoFade" paramId="10"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

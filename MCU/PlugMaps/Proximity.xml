@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLUGMAP version="1">
+  <MAPINFO creator=""></MAPINFO>
+  <BANK id="0" short="" long="" referTo="-1" offset="0">
+    <PAGE id="0" short="Main" long="Main" referTo="-1" offset="0">
+      <FADER short="RefDst" long="Original Refrence" paramId="2"/>
+      <FADER short="Gain" long="DistGain" paramId="1"/>
+      <FADER short="FTune" long="Fine Tune Dist" paramId="3"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="MdSpd" long="Modulation Speed" paramId="11"/>
+      <FADER short="MdDpth" long="Modulation Depth" paramId="12"/>
+      <VPOT short="MODE" long="Channel Mode" paramId="0">
+        <STEP value="0" short="Left" long="Left"/>
+        <STEP value="0.5" short="Right" long="Right"/>
+        <STEP value="1" short="Stereo" long="Stereo"/>
+      </VPOT>
+      <VPOT short="DLYTYP" long="True Delay Type" paramId="4">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="0.5" short="Type A" long="Type A"/>
+        <STEP value="1" short="Type B" long="Type B"/>
+      </VPOT>
+      <VPOT short="GAIN" long="True Gain Bypass" paramId="5">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="AIR" long="Air Absorption Mo" paramId="6">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="0.5" short="Type A" long="Type A"/>
+        <STEP value="1" short="Type B" long="Type B"/>
+      </VPOT>
+      <VPOT short="WIDTH" long="Stereo Width" paramId="7">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="0.5" short="Type A" long="Type A"/>
+        <STEP value="1" short="Type B" long="Type B"/>
+      </VPOT>
+      <VPOT short="PROX" long="Proximity Model" paramId="8">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="0.5" short="Type A" long="Type A"/>
+        <STEP value="1" short="Type B" long="Type B"/>
+      </VPOT>
+      <VPOT short="RFLECT" long="Reflections Model" paramId="9">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="0.5" short="Type A" long="Type A"/>
+        <STEP value="1" short="Type B" long="Type B"/>
+      </VPOT>
+      <VPOT short="MDSHPE" long="Modulation Shape" paramId="10">
+        <STEP value="0" short="OFF" long="OFF"/>
+        <STEP value="0.25" short="Sine" long="Sine"/>
+        <STEP value="0.5" short="Triang" long="Triangle"/>
+        <STEP value="0.75" short="Sawtoo" long="Sawtooth"/>
+        <STEP value="1" short="Square" long="Square"/>
+      </VPOT>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

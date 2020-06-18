@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLUGMAP version="1">
+  <MAPINFO creator=""></MAPINFO>
+  <BANK id="0" short="" long="" referTo="-1" offset="0">
+    <PAGE id="0" short="" long="" referTo="-1" offset="0">
+      <FADER short="Freq" long="Frequency" paramId="0"/>
+      <FADER short="Res" long="Resonance" paramId="1"/>
+      <FADER short="DIST" long="Distortion" paramId="2"/>
+      <FADER short="FBack" long="Feedback" paramId="3"/>
+      <FADER short="Level" long="Level" paramId="4"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT short="FILTR:" long="FILTR:" paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="OUT:" long="OUT:" paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

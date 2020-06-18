@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLUGMAP version="1">
+  <MAPINFO creator=""></MAPINFO>
+  <BANK id="0" short="" long="" referTo="-1" offset="0">
+    <PAGE id="0" short="MAIN" long="MAIN" referTo="-1" offset="0">
+      <FADER short="Mix" long="Mix" paramId="3"/>
+      <FADER short="Pitch" long="Pitch" paramId="14"/>
+      <FADER short="Splice" long="SpliceValue" paramId="16"/>
+      <FADER short="Delay" long="DelayValue" paramId="18"/>
+      <FADER short="ReCycl" long="Regenerate" paramId="5"/>
+      <FADER short="Thresh" long="Threshold" paramId="20"/>
+      <FADER short="G/Duck" long="GateDuck" paramId="8"/>
+      <FADER paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="FW/REV" long="Direction" paramId="9">
+        <STEP value="0" short="forwar" long="forward"/>
+        <STEP value="1" short="revers" long="reverse"/>
+      </VPOT>
+      <VPOT short="SYNC" long="MIDI SYNC" paramId="10">
+        <STEP value="0" short="off" long="off"/>
+        <STEP value="1" short="on" long="on"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="1" short="TWEAK" long="TWEAK" referTo="-1" offset="0">
+      <FADER short="PitchO" long="PitchOffset" paramId="15"/>
+      <FADER short="Splice" long="SpliceOffset" paramId="17"/>
+      <FADER short="DelayO" long="DelayOffset" paramId="19"/>
+      <FADER short="Smooth" long="Smoothing" paramId="13"/>
+      <FADER short="LowCut" long="LowCut" paramId="6"/>
+      <FADER short="HighCu" long="HighCut" paramId="7"/>
+      <FADER short="Attack" long="Attack" paramId="21"/>
+      <FADER short="Releas" long="Release" paramId="22"/>
+      <VPOT short="FDBCK" long="FDBCK" paramId="11">
+        <STEP value="0" short="Mixed" long="Mixed"/>
+        <STEP value="0.5" short="Dual" long="Dual"/>
+        <STEP value="1" short="PingPo" long="PingPong"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="DUCK" long="DuckMode" paramId="12">
+        <STEP value="0" short="Output" long="Output"/>
+        <STEP value="0.5" short="Regen" long="Regen"/>
+        <STEP value="1" short="Both" long="Both"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="2" short="I/O" long="I/O" referTo="-1" offset="0">
+      <FADER short="InputG" long="InputGain" paramId="1"/>
+      <FADER short="Output" long="OutputGain" paramId="2"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

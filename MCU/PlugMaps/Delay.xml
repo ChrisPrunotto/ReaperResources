@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLUGMAP version="1">
+  <MAPINFO creator=""></MAPINFO>
+  <BANK id="0" short="" long="" referTo="-1" offset="0">
+    <PAGE id="0" short="" long="" referTo="-1" offset="0">
+      <FADER short="Time" long="Delay Time (ms)" paramId="1"/>
+      <FADER short="Step" long="Delay Time (steps" paramId="2"/>
+      <FADER paramId="-1"/>
+      <FADER short="FBack" long="Feedback" paramId="5"/>
+      <FADER paramId="-1"/>
+      <FADER short="Duck" long="Duck" paramId="8"/>
+      <FADER short="Pan" long="Pan" paramId="6"/>
+      <FADER short="Mix" long="Mix" paramId="9"/>
+      <VPOT short="DELAY:" long="DELAY:" paramId="-1"/>
+      <VPOT short="MODE" long="Sync Mode" paramId="4">
+        <STEP value="0" short="ms" long="ms"/>
+        <STEP value="1" short="sync" long="sync"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="PONG" long="Ping-Pong" paramId="7">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="POWER" long="Enabled" paramId="0">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

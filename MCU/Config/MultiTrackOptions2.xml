@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<OPTION_CONFIG version="1">
+  <option name="Adjust TCP" selectedPos="0" selectedName="don't adjust"/>
+  <option name="Adjust Mixer" selectedPos="0" selectedName="don't adjust"/>
+  <option name="Follow Reaper" selectedPos="0" selectedName="no"/>
+  <option name="Touch select" selectedPos="0" selectedName="no"/>
+</OPTION_CONFIG>

@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLUGMAP version="1">
+  <MAPINFO creator=""></MAPINFO>
+  <BANK id="0" short="MAIN" long="MAIN" referTo="-1" offset="0">
+    <PAGE id="0" short="Filter" long="Filter" referTo="-1" offset="0">
+      <FADER short="HP Frq" long="HP Frq" paramId="17"/>
+      <FADER short="LP Frq" long="LP Frq" paramId="18"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT short="FILTR:" long="FILTER:" paramId="-1"/>
+      <VPOT short="SPLIT" long="Filter Split" paramId="16">
+        <STEP value="0" short="Off " long="Off "/>
+        <STEP value="1" short="On " long="On "/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="1" short="EQ" long="EQ" referTo="-1" offset="0">
+      <FADER short="HF dB" long="HF Gain" paramId="29"/>
+      <FADER short="HF Frq" long="HF Frq" paramId="30"/>
+      <FADER short="HMF dB" long="HMF Gain" paramId="25"/>
+      <FADER short="HMF Fq" long="HMF Frq" paramId="26"/>
+      <FADER short="LMF dB" long="LMF Gain" paramId="22"/>
+      <FADER short="LMF Fq" long="LMF Frq" paramId="23"/>
+      <FADER short="LF dB" long="LF Gain" paramId="19"/>
+      <FADER short="LF Fq" long="LF Freq" paramId="20"/>
+      <VPOT short="EQ BYP" long="EQ Bypass" paramId="12">
+        <STEP value="0" short="Off " long="Off "/>
+        <STEP value="1" short="On " long="On "/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="HMF Q" long="HMF Q" paramId="27">
+        <STEP value="0" short="3.50 " long="3.50 "/>
+        <STEP value="0.00600000005" short="3.47 " long="3.47 "/>
+        <STEP value="0.0180000011" short="3.41 " long="3.41 "/>
+        <STEP value="0.0200000014" short="3.40 " long="3.40 "/>
+        <STEP value="0.0280000009" short="3.36 " long="3.36 "/>
+        <STEP value="0.0320000015" short="3.34 " long="3.34 "/>
+        <STEP value="0.0360000022" short="3.32 " long="3.32 "/>
+        <STEP value="0.0400000028" short="3.30 " long="3.30 "/>
+        <STEP value="0.0450000018" short="3.27 " long="3.27 "/>
+        <STEP value="0.0480000004" short="3.26 " long="3.26 "/>
+        <STEP value="0.0500000007" short="3.25 " long="3.25 "/>
+        <STEP value="0.0530000031" short="3.23 " long="3.23 "/>
+        <STEP value="0.0560000017" short="3.22 " long="3.22 "/>
+        <STEP value="0.0570000038" short="3.21 " long="3.21 "/>
+        <STEP value="0.064000003" short="3.18 " long="3.18 "/>
+        <STEP value="0.0680000037" short="3.16 " long="3.16 "/>
+        <STEP value="0.0700000003" short="3.15 " long="3.15 "/>
+        <STEP value="0.0720000044" short="3.14 " long="3.14 "/>
+        <STEP value="0.0790000036" short="3.10 " long="3.10 "/>
+        <STEP value="0.0800000057" short="3.10 " long="3.10 "/>
+        <STEP value="0.0850000009" short="3.08 " long="3.08 "/>
+        <STEP value="0.0860000029" short="3.07 " long="3.07 "/>
+        <STEP value="0.0900000036" short="3.05 " long="3.05 "/>
+        <STEP value="0.0920000076" short="3.04 " long="3.04 "/>
+        <STEP value="0.0960000008" short="3.02 " long="3.02 "/>
+        <STEP value="0.0990000069" short="3.00 " long="3.00 "/>
+        <STEP value="0.101000004" short="3.00 " long="3.00 "/>
+        <STEP value="0.107000008" short="2.96 " long="2.96 "/>
+        <STEP value="0.108000003" short="2.96 " long="2.96 "/>
+        <STEP value="0.112000003" short="2.94 " long="2.94 "/>
+        <STEP value="0.116000004" short="2.92 " long="2.92 "/>
+        <STEP value="0.117000006" short="2.91 " long="2.91 "/>
+        <STEP value="0.119000003" short="2.90 " long="2.90 "/>
+        <STEP value="0.120000005" short="2.90 " long="2.90 "/>
+        <STEP value="0.131000012" short="2.84 " long="2.84 "/>
+        <STEP value="0.134000003" short="2.83 " long="2.83 "/>
+        <STEP value="0.142000005" short="2.79 " long="2.79 "/>
+        <STEP value="0.146000013" short="2.77 " long="2.77 "/>
+        <STEP value="0.148000002" short="2.76 " long="2.76 "/>
+        <STEP value="0.150000006" short="2.75 " long="2.75 "/>
+        <STEP value="0.159000009" short="2.70 " long="2.70 "/>
+        <STEP value="0.161000013" short="2.69 " long="2.69 "/>
+        <STEP value="0.163000003" short="2.69 " long="2.69 "/>
+        <STEP value="0.165000007" short="2.67 " long="2.67 "/>
+        <STEP value="0.173000008" short="2.63 " long="2.63 "/>
+        <STEP value="0.176000014" short="2.62 " long="2.62 "/>
+        <STEP value="0.182000011" short="2.59 " long="2.59 "/>
+        <STEP value="0.185000002" short="2.58 " long="2.58 "/>
+        <STEP value="0.186000004" short="2.57 " long="2.57 "/>
+        <STEP value="0.187000006" short="2.56 " long="2.56 "/>
+        <STEP value="0.188000008" short="2.56 " long="2.56 "/>
+        <STEP value="0.191000015" short="2.54 " long="2.54 "/>
+        <STEP value="0.195000008" short="2.52 " long="2.52 "/>
+        <STEP value="0.19600001" short="2.52 " long="2.52 "/>
+        <STEP value="0.201000005" short="2.50 " long="2.50 "/>
+        <STEP value="0.206000015" short="2.47 " long="2.47 "/>
+        <STEP value="0.207000017" short="2.46 " long="2.46 "/>
+        <STEP value="0.216000006" short="2.42 " long="2.42 "/>
+        <STEP value="0.217000008" short="2.42 " long="2.42 "/>
+        <STEP value="0.228000015" short="2.36 " long="2.36 "/>
+        <STEP value="0.230000004" short="2.35 " long="2.35 "/>
+        <STEP value="0.23300001" short="2.33 " long="2.33 "/>
+        <STEP value="0.24000001" short="2.30 " long="2.30 "/>
+        <STEP value="0.241000012" short="2.29 " long="2.29 "/>
+        <STEP value="0.242000014" short="2.29 " long="2.29 "/>
+        <STEP value="0.248000011" short="2.26 " long="2.26 "/>
+        <STEP value="0.249000013" short="2.25 " long="2.25 "/>
+        <STEP value="0.252000004" short="2.24 " long="2.24 "/>
+        <STEP value="0.253000021" short="2.23 " long="2.23 "/>
+        <STEP value="0.254000008" short="2.23 " long="2.23 "/>
+        <STEP value="0.259000003" short="2.21 " long="2.21 "/>
+        <STEP value="0.262000024" short="2.19 " long="2.19 "/>
+        <STEP value="0.263000011" short="2.19 " long="2.19 "/>
+        <STEP value="0.266000003" short="2.17 " long="2.17 "/>
+        <STEP value="0.271000028" short="2.14 " long="2.14 "/>
+        <STEP value="0.274000019" short="2.13 " long="2.13 "/>
+        <STEP value="0.281000018" short="2.09 " long="2.09 "/>
+        <STEP value="0.285000026" short="2.07 " long="2.07 "/>
+        <STEP value="0.286000013" short="2.07 " long="2.07 "/>
+        <STEP value="0.288000017" short="2.06 " long="2.06 "/>
+        <STEP value="0.293000013" short="2.04 " long="2.04 "/>
+        <STEP value="0.294" short="2.03 " long="2.03 "/>
+        <STEP value="0.302000016" short="1.99 " long="1.99 "/>
+        <STEP value="0.310000002" short="1.98 " long="1.98 "/>
+        <STEP value="0.313000023" short="1.97 " long="1.97 "/>
+        <STEP value="0.315000027" short="1.96 " long="1.96 "/>
+        <STEP value="0.320000023" short="1.95 " long="1.95 "/>
+        <STEP value="0.324000001" short="1.94 " long="1.94 "/>
+        <STEP value="0.33100003" short="1.92 " long="1.92 "/>
+        <STEP value="0.333000004" short="1.92 " long="1.92 "/>
+        <STEP value="0.345000029" short="1.89 " long="1.89 "/>
+        <STEP value="0.347000003" short="1.88 " long="1.88 "/>
+        <STEP value="0.351000011" short="1.87 " long="1.87 "/>
+        <STEP value="0.356000006" short="1.86 " long="1.86 "/>
+        <STEP value="0.360000014" short="1.85 " long="1.85 "/>
+        <STEP value="0.368000031" short="1.83 " long="1.83 "/>
+        <STEP value="0.370000005" short="1.83 " long="1.83 "/>
+        <STEP value="0.372000009" short="1.82 " long="1.82 "/>
+        <STEP value="0.374000013" short="1.82 " long="1.82 "/>
+        <STEP value="0.37500003" short="1.81 " long="1.81 "/>
+        <STEP value="0.376000017" short="1.81 " long="1.81 "/>
+        <STEP value="0.381000012" short="1.80 " long="1.80 "/>
+        <STEP value="0.383000016" short="1.79 " long="1.79 "/>
+        <STEP value="0.401000023" short="1.75 " long="1.75 "/>
+        <STEP value="0.403000027" short="1.74 " long="1.74 "/>
+        <STEP value="0.405000031" short="1.74 " long="1.74 "/>
+        <STEP value="0.409000009" short="1.73 " long="1.73 "/>
+        <STEP value="0.410000026" short="1.72 " long="1.72 "/>
+        <STEP value="0.413000017" short="1.72 " long="1.72 "/>
+        <STEP value="0.415000021" short="1.71 " long="1.71 "/>
+        <STEP value="0.418000013" short="1.71 " long="1.71 "/>
+        <STEP value="0.41900003" short="1.70 " long="1.70 "/>
+        <STEP value="0.423000008" short="1.69 " long="1.69 "/>
+        <STEP value="0.428000033" short="1.68 " long="1.68 "/>
+        <STEP value="0.432000011" short="1.67 " long="1.67 "/>
+        <STEP value="0.436000019" short="1.66 " long="1.66 "/>
+        <STEP value="0.442000031" short="1.64 " long="1.64 "/>
+        <STEP value="0.443000019" short="1.64 " long="1.64 "/>
+        <STEP value="0.448000014" short="1.63 " long="1.63 "/>
+        <STEP value="0.451000035" short="1.62 " long="1.62 "/>
+        <STEP value="0.459000021" short="1.60 " long="1.60 "/>
+        <STEP value="0.475000024" short="1.56 " long="1.56 "/>
+        <STEP value="0.478000015" short="1.55 " long="1.55 "/>
+        <STEP value="0.482000023" short="1.54 " long="1.54 "/>
+        <STEP value="0.486000031" short="1.53 " long="1.53 "/>
+        <STEP value="0.49000001" short="1.52 " long="1.52 "/>
+        <STEP value="0.496000022" short="1.51 " long="1.51 "/>
+        <STEP value="0.497000009" short="1.51 " long="1.51 "/>
+        <STEP value="0.498000026" short="1.50 " long="1.50 "/>
+        <STEP value="0.5" short="1.50 " long="1.50 "/>
+        <STEP value="0.502000034" short="1.49 " long="1.49 "/>
+        <STEP value="0.506000042" short="1.48 " long="1.48 "/>
+        <STEP value="0.507000029" short="1.48 " long="1.48 "/>
+        <STEP value="0.51000005" short="1.47 " long="1.47 "/>
+        <STEP value="0.511000037" short="1.47 " long="1.47 "/>
+        <STEP value="0.516000032" short="1.46 " long="1.46 "/>
+        <STEP value="0.51700002" short="1.46 " long="1.46 "/>
+        <STEP value="0.519000053" short="1.45 " long="1.45 "/>
+        <STEP value="0.523000002" short="1.44 " long="1.44 "/>
+        <STEP value="0.529000044" short="1.43 " long="1.43 "/>
+        <STEP value="0.531000018" short="1.42 " long="1.42 "/>
+        <STEP value="0.537" short="1.41 " long="1.41 "/>
+        <STEP value="0.539000034" short="1.40 " long="1.40 "/>
+        <STEP value="0.55400002" short="1.37 " long="1.37 "/>
+        <STEP value="0.560000002" short="1.35 " long="1.35 "/>
+        <STEP value="0.563000023" short="1.34 " long="1.34 "/>
+        <STEP value="0.568000019" short="1.33 " long="1.33 "/>
+        <STEP value="0.574000001" short="1.31 " long="1.31 "/>
+        <STEP value="0.577000022" short="1.31 " long="1.31 "/>
+        <STEP value="0.583000004" short="1.29 " long="1.29 "/>
+        <STEP value="0.586000025" short="1.28 " long="1.28 "/>
+        <STEP value="0.59800005" short="1.25 " long="1.25 "/>
+        <STEP value="0.603000045" short="1.24 " long="1.24 "/>
+        <STEP value="0.606000006" short="1.23 " long="1.23 "/>
+        <STEP value="0.609000027" short="1.23 " long="1.23 "/>
+        <STEP value="0.611000001" short="1.22 " long="1.22 "/>
+        <STEP value="0.619000018" short="1.20 " long="1.20 "/>
+        <STEP value="0.621000051" short="1.20 " long="1.20 "/>
+        <STEP value="0.623000026" short="1.19 " long="1.19 "/>
+        <STEP value="0.631000042" short="1.17 " long="1.17 "/>
+        <STEP value="0.633000016" short="1.17 " long="1.17 "/>
+        <STEP value="0.640000045" short="1.15 " long="1.15 "/>
+        <STEP value="0.641000032" short="1.15 " long="1.15 "/>
+        <STEP value="0.647000015" short="1.13 " long="1.13 "/>
+        <STEP value="0.651000023" short="1.12 " long="1.12 "/>
+        <STEP value="0.655000031" short="1.11 " long="1.11 "/>
+        <STEP value="0.659000039" short="1.10 " long="1.10 "/>
+        <STEP value="0.66200006" short="1.09 " long="1.09 "/>
+        <STEP value="0.667000055" short="1.08 " long="1.08 "/>
+        <STEP value="0.673000038" short="1.07 " long="1.07 "/>
+        <STEP value="0.684000015" short="1.04 " long="1.04 "/>
+        <STEP value="0.688000023" short="1.03 " long="1.03 "/>
+        <STEP value="0.697000027" short="1.01 " long="1.01 "/>
+        <STEP value="0.698000014" short="1.00 " long="1.00 "/>
+        <STEP value="0.702000022" short="1.00 " long="1.00 "/>
+        <STEP value="0.703000009" short="0.99 " long="0.99 "/>
+        <STEP value="0.708000004" short="0.98 " long="0.98 "/>
+        <STEP value="0.711000025" short="0.97 " long="0.97 "/>
+        <STEP value="0.713000059" short="0.97 " long="0.97 "/>
+        <STEP value="0.715000033" short="0.96 " long="0.96 "/>
+        <STEP value="0.726000011" short="0.94 " long="0.94 "/>
+        <STEP value="0.739000022" short="0.90 " long="0.90 "/>
+        <STEP value="0.746000051" short="0.88 " long="0.88 "/>
+        <STEP value="0.748000026" short="0.88 " long="0.88 "/>
+        <STEP value="0.751000047" short="0.87 " long="0.87 "/>
+        <STEP value="0.756000042" short="0.86 " long="0.86 "/>
+        <STEP value="0.759000063" short="0.85 " long="0.85 "/>
+        <STEP value="0.762000024" short="0.85 " long="0.85 "/>
+        <STEP value="0.763000011" short="0.84 " long="0.84 "/>
+        <STEP value="0.771000028" short="0.82 " long="0.82 "/>
+        <STEP value="0.775000036" short="0.81 " long="0.81 "/>
+        <STEP value="0.776000023" short="0.81 " long="0.81 "/>
+        <STEP value="0.783000052" short="0.79 " long="0.79 "/>
+        <STEP value="0.78700006" short="0.78 " long="0.78 "/>
+        <STEP value="0.788000047" short="0.78 " long="0.78 "/>
+        <STEP value="0.795000017" short="0.76 " long="0.76 "/>
+        <STEP value="0.796000063" short="0.76 " long="0.76 "/>
+        <STEP value="0.800000012" short="0.75 " long="0.75 "/>
+        <STEP value="0.80400002" short="0.74 " long="0.74 "/>
+        <STEP value="0.807000041" short="0.73 " long="0.73 "/>
+        <STEP value="0.815000057" short="0.71 " long="0.71 "/>
+        <STEP value="0.824000061" short="0.69 " long="0.69 "/>
+        <STEP value="0.839000046" short="0.65 " long="0.65 "/>
+        <STEP value="0.841000021" short="0.65 " long="0.65 "/>
+        <STEP value="0.847000062" short="0.63 " long="0.63 "/>
+        <STEP value="0.855000019" short="0.61 " long="0.61 "/>
+        <STEP value="0.861000061" short="0.60 " long="0.60 "/>
+        <STEP value="0.863000035" short="0.59 " long="0.59 "/>
+        <STEP value="0.876000047" short="0.56 " long="0.56 "/>
+        <STEP value="0.878000021" short="0.55 " long="0.55 "/>
+        <STEP value="0.881000042" short="0.55 " long="0.55 "/>
+        <STEP value="0.88500005" short="0.54 " long="0.54 "/>
+        <STEP value="0.890000045" short="0.52 " long="0.52 "/>
+        <STEP value="0.891000032" short="0.52 " long="0.52 "/>
+        <STEP value="0.894000053" short="0.51 " long="0.51 "/>
+        <STEP value="0.900000036" short="0.50 " long="0.50 "/>
+        <STEP value="0.903000057" short="0.49 " long="0.49 "/>
+        <STEP value="0.905000031" short="0.48 " long="0.48 "/>
+        <STEP value="0.911000073" short="0.46 " long="0.46 "/>
+        <STEP value="0.913000047" short="0.45 " long="0.45 "/>
+        <STEP value="0.917000055" short="0.43 " long="0.43 "/>
+        <STEP value="0.921000063" short="0.42 " long="0.42 "/>
+        <STEP value="0.922000051" short="0.41 " long="0.41 "/>
+        <STEP value="0.923000038" short="0.41 " long="0.41 "/>
+        <STEP value="0.924000025" short="0.40 " long="0.40 "/>
+        <STEP value="0.926000059" short="0.40 " long="0.40 "/>
+        <STEP value="0.931000054" short="0.38 " long="0.38 "/>
+        <STEP value="0.933000028" short="0.37 " long="0.37 "/>
+        <STEP value="0.936000049" short="0.36 " long="0.36 "/>
+        <STEP value="0.943000019" short="0.33 " long="0.33 "/>
+        <STEP value="0.94600004" short="0.32 " long="0.32 "/>
+        <STEP value="0.948000073" short="0.31 " long="0.31 "/>
+        <STEP value="0.951000035" short="0.30 " long="0.30 "/>
+        <STEP value="0.954000056" short="0.28 " long="0.28 "/>
+        <STEP value="0.958000064" short="0.27 " long="0.27 "/>
+        <STEP value="0.963000059" short="0.25 " long="0.25 "/>
+        <STEP value="0.968000054" short="0.23 " long="0.23 "/>
+        <STEP value="0.976000071" short="0.20 " long="0.20 "/>
+        <STEP value="0.977000058" short="0.19 " long="0.19 "/>
+        <STEP value="0.981000066" short="0.18 " long="0.18 "/>
+        <STEP value="0.985000074" short="0.16 " long="0.16 "/>
+        <STEP value="0.994000018" short="0.12 " long="0.12 "/>
+        <STEP value="1" short="0.10 " long="0.10 "/>
+      </VPOT>
+      <VPOT short="HMF X3" long="HMF X3" paramId="28">
+        <STEP value="0" short="Off " long="Off "/>
+        <STEP value="1" short="On " long="On "/>
+      </VPOT>
+      <VPOT short="LMF Q" long="LMF Q" paramId="24">
+        <STEP value="0" short="3.50 " long="3.50 "/>
+        <STEP value="0.00200000009" short="3.49 " long="3.49 "/>
+        <STEP value="0.00300000003" short="3.48 " long="3.48 "/>
+        <STEP value="0.0110000009" short="3.44 " long="3.44 "/>
+        <STEP value="0.0180000011" short="3.41 " long="3.41 "/>
+        <STEP value="0.0190000013" short="3.40 " long="3.40 "/>
+        <STEP value="0.0250000004" short="3.38 " long="3.38 "/>
+        <STEP value="0.0260000005" short="3.37 " long="3.37 "/>
+        <STEP value="0.0280000009" short="3.36 " long="3.36 "/>
+        <STEP value="0.0320000015" short="3.34 " long="3.34 "/>
+        <STEP value="0.0360000022" short="3.32 " long="3.32 "/>
+        <STEP value="0.0370000005" short="3.31 " long="3.31 "/>
+        <STEP value="0.0480000004" short="3.26 " long="3.26 "/>
+        <STEP value="0.0490000024" short="3.25 " long="3.25 "/>
+        <STEP value="0.0530000031" short="3.23 " long="3.23 "/>
+        <STEP value="0.0580000021" short="3.21 " long="3.21 "/>
+        <STEP value="0.0600000024" short="3.20 " long="3.20 "/>
+        <STEP value="0.0610000044" short="3.19 " long="3.19 "/>
+        <STEP value="0.0650000051" short="3.17 " long="3.17 "/>
+        <STEP value="0.0690000057" short="3.15 " long="3.15 "/>
+        <STEP value="0.0730000064" short="3.13 " long="3.13 "/>
+        <STEP value="0.0780000016" short="3.11 " long="3.11 "/>
+        <STEP value="0.0820000023" short="3.09 " long="3.09 "/>
+        <STEP value="0.0850000009" short="3.08 " long="3.08 "/>
+        <STEP value="0.0870000049" short="3.06 " long="3.06 "/>
+        <STEP value="0.0910000056" short="3.04 " long="3.04 "/>
+        <STEP value="0.0930000022" short="3.04 " long="3.04 "/>
+        <STEP value="0.0950000063" short="3.02 " long="3.02 "/>
+        <STEP value="0.0970000029" short="3.02 " long="3.02 "/>
+        <STEP value="0.0990000069" short="3.00 " long="3.00 "/>
+        <STEP value="0.101000004" short="3.00 " long="3.00 "/>
+        <STEP value="0.102000006" short="2.99 " long="2.99 "/>
+        <STEP value="0.104000002" short="2.98 " long="2.98 "/>
+        <STEP value="0.106000006" short="2.97 " long="2.97 "/>
+        <STEP value="0.112000003" short="2.94 " long="2.94 "/>
+        <STEP value="0.114000008" short="2.93 " long="2.93 "/>
+        <STEP value="0.115000002" short="2.92 " long="2.92 "/>
+        <STEP value="0.121000007" short="2.89 " long="2.89 "/>
+        <STEP value="0.127000004" short="2.86 " long="2.86 "/>
+        <STEP value="0.129000008" short="2.85 " long="2.85 "/>
+        <STEP value="0.13000001" short="2.85 " long="2.85 "/>
+        <STEP value="0.133000001" short="2.84 " long="2.84 "/>
+        <STEP value="0.134000003" short="2.83 " long="2.83 "/>
+        <STEP value="0.138000011" short="2.81 " long="2.81 "/>
+        <STEP value="0.139000013" short="2.80 " long="2.80 "/>
+        <STEP value="0.142000005" short="2.79 " long="2.79 "/>
+        <STEP value="0.143000007" short="2.79 " long="2.79 "/>
+        <STEP value="0.144000009" short="2.78 " long="2.78 "/>
+        <STEP value="0.150000006" short="2.75 " long="2.75 "/>
+        <STEP value="0.151000008" short="2.74 " long="2.74 "/>
+        <STEP value="0.155000001" short="2.73 " long="2.73 "/>
+        <STEP value="0.159000009" short="2.70 " long="2.70 "/>
+        <STEP value="0.160000011" short="2.70 " long="2.70 "/>
+        <STEP value="0.161000013" short="2.69 " long="2.69 "/>
+        <STEP value="0.163000003" short="2.69 " long="2.69 "/>
+        <STEP value="0.165000007" short="2.67 " long="2.67 "/>
+        <STEP value="0.167000011" short="2.66 " long="2.66 "/>
+        <STEP value="0.168000013" short="2.66 " long="2.66 "/>
+        <STEP value="0.175000012" short="2.62 " long="2.62 "/>
+        <STEP value="0.176000014" short="2.62 " long="2.62 "/>
+        <STEP value="0.183000013" short="2.58 " long="2.58 "/>
+        <STEP value="0.188000008" short="2.56 " long="2.56 "/>
+        <STEP value="0.191000015" short="2.54 " long="2.54 "/>
+        <STEP value="0.194000006" short="2.53 " long="2.53 "/>
+        <STEP value="0.195000008" short="2.52 " long="2.52 "/>
+        <STEP value="0.198000014" short="2.51 " long="2.51 "/>
+        <STEP value="0.199000016" short="2.50 " long="2.50 "/>
+        <STEP value="0.213000014" short="2.43 " long="2.43 "/>
+        <STEP value="0.227000013" short="2.36 " long="2.36 "/>
+        <STEP value="0.231000006" short="2.34 " long="2.34 "/>
+        <STEP value="0.241000012" short="2.29 " long="2.29 "/>
+        <STEP value="0.252000004" short="2.24 " long="2.24 "/>
+        <STEP value="0.258000016" short="2.21 " long="2.21 "/>
+        <STEP value="0.26000002" short="2.20 " long="2.20 "/>
+        <STEP value="0.263999999" short="2.18 " long="2.18 "/>
+        <STEP value="0.275000006" short="2.13 " long="2.13 "/>
+        <STEP value="0.284000009" short="2.08 " long="2.08 "/>
+        <STEP value="0.294" short="2.03 " long="2.03 "/>
+        <STEP value="0.299000025" short="2.00 " long="2.00 "/>
+        <STEP value="0.307000011" short="1.98 " long="1.98 "/>
+        <STEP value="0.312000006" short="1.97 " long="1.97 "/>
+        <STEP value="0.329000026" short="1.93 " long="1.93 "/>
+        <STEP value="0.335000008" short="1.91 " long="1.91 "/>
+        <STEP value="0.343000025" short="1.89 " long="1.89 "/>
+        <STEP value="0.355000019" short="1.86 " long="1.86 "/>
+        <STEP value="0.363000005" short="1.84 " long="1.84 "/>
+        <STEP value="0.367000014" short="1.83 " long="1.83 "/>
+        <STEP value="0.384000003" short="1.79 " long="1.79 "/>
+        <STEP value="0.386000007" short="1.78 " long="1.78 "/>
+        <STEP value="0.395000011" short="1.76 " long="1.76 "/>
+        <STEP value="0.398000032" short="1.75 " long="1.75 "/>
+        <STEP value="0.414000034" short="1.71 " long="1.71 "/>
+        <STEP value="0.445000023" short="1.64 " long="1.64 "/>
+        <STEP value="0.460000008" short="1.60 " long="1.60 "/>
+        <STEP value="0.469000012" short="1.58 " long="1.58 "/>
+        <STEP value="0.471000016" short="1.57 " long="1.57 "/>
+        <STEP value="0.479000032" short="1.55 " long="1.55 "/>
+        <STEP value="0.492000014" short="1.52 " long="1.52 "/>
+        <STEP value="0.495000035" short="1.51 " long="1.51 "/>
+        <STEP value="0.498000026" short="1.50 " long="1.50 "/>
+        <STEP value="0.502000034" short="1.49 " long="1.49 "/>
+        <STEP value="0.503000021" short="1.49 " long="1.49 "/>
+        <STEP value="0.507000029" short="1.48 " long="1.48 "/>
+        <STEP value="0.51000005" short="1.47 " long="1.47 "/>
+        <STEP value="0.511000037" short="1.47 " long="1.47 "/>
+        <STEP value="0.513000011" short="1.47 " long="1.47 "/>
+        <STEP value="0.515000045" short="1.46 " long="1.46 "/>
+        <STEP value="0.518000007" short="1.46 " long="1.46 "/>
+        <STEP value="0.520000041" short="1.45 " long="1.45 "/>
+        <STEP value="0.522000015" short="1.45 " long="1.45 "/>
+        <STEP value="0.523000002" short="1.44 " long="1.44 "/>
+        <STEP value="0.526000023" short="1.44 " long="1.44 "/>
+        <STEP value="0.530000031" short="1.42 " long="1.42 "/>
+        <STEP value="0.533000052" short="1.42 " long="1.42 "/>
+        <STEP value="0.535000026" short="1.41 " long="1.41 "/>
+        <STEP value="0.537" short="1.41 " long="1.41 "/>
+        <STEP value="0.539000034" short="1.40 " long="1.40 "/>
+        <STEP value="0.543000042" short="1.39 " long="1.39 "/>
+        <STEP value="0.545000017" short="1.39 " long="1.39 "/>
+        <STEP value="0.550000012" short="1.38 " long="1.38 "/>
+        <STEP value="0.553000033" short="1.37 " long="1.37 "/>
+        <STEP value="0.559000015" short="1.35 " long="1.35 "/>
+        <STEP value="0.561000049" short="1.35 " long="1.35 "/>
+        <STEP value="0.563000023" short="1.34 " long="1.34 "/>
+        <STEP value="0.569000006" short="1.33 " long="1.33 "/>
+        <STEP value="0.570000052" short="1.32 " long="1.32 "/>
+        <STEP value="0.572000027" short="1.32 " long="1.32 "/>
+        <STEP value="0.575000048" short="1.31 " long="1.31 "/>
+        <STEP value="0.580000043" short="1.30 " long="1.30 "/>
+        <STEP value="0.589000046" short="1.28 " long="1.28 "/>
+        <STEP value="0.593000054" short="1.27 " long="1.27 "/>
+        <STEP value="0.59800005" short="1.25 " long="1.25 "/>
+        <STEP value="0.606000006" short="1.23 " long="1.23 "/>
+        <STEP value="0.612000048" short="1.22 " long="1.22 "/>
+        <STEP value="0.614000022" short="1.22 " long="1.22 "/>
+        <STEP value="0.622000039" short="1.19 " long="1.19 "/>
+        <STEP value="0.624000013" short="1.19 " long="1.19 "/>
+        <STEP value="0.625" short="1.19 " long="1.19 "/>
+        <STEP value="0.630000055" short="1.17 " long="1.17 "/>
+        <STEP value="0.631000042" short="1.17 " long="1.17 "/>
+        <STEP value="0.634000003" short="1.17 " long="1.17 "/>
+        <STEP value="0.636000037" short="1.16 " long="1.16 "/>
+        <STEP value="0.638000011" short="1.16 " long="1.16 "/>
+        <STEP value="0.641000032" short="1.15 " long="1.15 "/>
+        <STEP value="0.643000007" short="1.14 " long="1.14 "/>
+        <STEP value="0.644000053" short="1.14 " long="1.14 "/>
+        <STEP value="0.65200001" short="1.12 " long="1.12 "/>
+        <STEP value="0.654000044" short="1.11 " long="1.11 "/>
+        <STEP value="0.665000021" short="1.09 " long="1.09 "/>
+        <STEP value="0.666000009" short="1.08 " long="1.08 "/>
+        <STEP value="0.668000042" short="1.08 " long="1.08 "/>
+        <STEP value="0.670000017" short="1.07 " long="1.07 "/>
+        <STEP value="0.673000038" short="1.07 " long="1.07 "/>
+        <STEP value="0.682000041" short="1.04 " long="1.04 "/>
+        <STEP value="0.688000023" short="1.03 " long="1.03 "/>
+        <STEP value="0.691000044" short="1.02 " long="1.02 "/>
+        <STEP value="0.703000009" short="0.99 " long="0.99 "/>
+        <STEP value="0.710000038" short="0.97 " long="0.97 "/>
+        <STEP value="0.722000062" short="0.94 " long="0.94 "/>
+        <STEP value="0.72300005" short="0.94 " long="0.94 "/>
+        <STEP value="0.726000011" short="0.94 " long="0.94 "/>
+        <STEP value="0.727000058" short="0.93 " long="0.93 "/>
+        <STEP value="0.728000045" short="0.93 " long="0.93 "/>
+        <STEP value="0.736000061" short="0.91 " long="0.91 "/>
+        <STEP value="0.737000048" short="0.91 " long="0.91 "/>
+        <STEP value="0.739000022" short="0.90 " long="0.90 "/>
+        <STEP value="0.743000031" short="0.89 " long="0.89 "/>
+        <STEP value="0.751000047" short="0.87 " long="0.87 "/>
+        <STEP value="0.754000008" short="0.87 " long="0.87 "/>
+        <STEP value="0.758000016" short="0.86 " long="0.86 "/>
+        <STEP value="0.759000063" short="0.85 " long="0.85 "/>
+        <STEP value="0.762000024" short="0.85 " long="0.85 "/>
+        <STEP value="0.772000015" short="0.82 " long="0.82 "/>
+        <STEP value="0.778000057" short="0.80 " long="0.80 "/>
+        <STEP value="0.788000047" short="0.78 " long="0.78 "/>
+        <STEP value="0.792000055" short="0.77 " long="0.77 "/>
+        <STEP value="0.800000012" short="0.75 " long="0.75 "/>
+        <STEP value="0.802000046" short="0.74 " long="0.74 "/>
+        <STEP value="0.803000033" short="0.74 " long="0.74 "/>
+        <STEP value="0.807000041" short="0.73 " long="0.73 "/>
+        <STEP value="0.810000062" short="0.72 " long="0.72 "/>
+        <STEP value="0.81400001" short="0.72 " long="0.72 "/>
+        <STEP value="0.819000065" short="0.70 " long="0.70 "/>
+        <STEP value="0.827000022" short="0.68 " long="0.68 "/>
+        <STEP value="0.830000043" short="0.67 " long="0.67 "/>
+        <STEP value="0.837000012" short="0.66 " long="0.66 "/>
+        <STEP value="0.840000033" short="0.65 " long="0.65 "/>
+        <STEP value="0.846000016" short="0.64 " long="0.64 "/>
+        <STEP value="0.850000024" short="0.63 " long="0.63 "/>
+        <STEP value="0.852000058" short="0.62 " long="0.62 "/>
+        <STEP value="0.853000045" short="0.62 " long="0.62 "/>
+        <STEP value="0.85800004" short="0.60 " long="0.60 "/>
+        <STEP value="0.861000061" short="0.60 " long="0.60 "/>
+        <STEP value="0.866000056" short="0.58 " long="0.58 "/>
+        <STEP value="0.868000031" short="0.58 " long="0.58 "/>
+        <STEP value="0.873000026" short="0.57 " long="0.57 "/>
+        <STEP value="0.877000034" short="0.56 " long="0.56 "/>
+        <STEP value="0.878000021" short="0.55 " long="0.55 "/>
+        <STEP value="0.881000042" short="0.55 " long="0.55 "/>
+        <STEP value="0.88500005" short="0.54 " long="0.54 "/>
+        <STEP value="0.890000045" short="0.52 " long="0.52 "/>
+        <STEP value="0.893000066" short="0.52 " long="0.52 "/>
+        <STEP value="0.898000062" short="0.50 " long="0.50 "/>
+        <STEP value="0.901000023" short="0.50 " long="0.50 "/>
+        <STEP value="0.90200007" short="0.49 " long="0.49 "/>
+        <STEP value="0.903000057" short="0.49 " long="0.49 "/>
+        <STEP value="0.910000026" short="0.46 " long="0.46 "/>
+        <STEP value="0.91200006" short="0.45 " long="0.45 "/>
+        <STEP value="0.913000047" short="0.45 " long="0.45 "/>
+        <STEP value="0.918000042" short="0.43 " long="0.43 "/>
+        <STEP value="0.922000051" short="0.41 " long="0.41 "/>
+        <STEP value="0.923000038" short="0.41 " long="0.41 "/>
+        <STEP value="0.925000072" short="0.40 " long="0.40 "/>
+        <STEP value="0.928000033" short="0.39 " long="0.39 "/>
+        <STEP value="0.931000054" short="0.38 " long="0.38 "/>
+        <STEP value="0.932000041" short="0.37 " long="0.37 "/>
+        <STEP value="0.934000015" short="0.36 " long="0.36 "/>
+        <STEP value="0.938000023" short="0.35 " long="0.35 "/>
+        <STEP value="0.943000019" short="0.33 " long="0.33 "/>
+        <STEP value="0.94600004" short="0.32 " long="0.32 "/>
+        <STEP value="0.948000073" short="0.31 " long="0.31 "/>
+        <STEP value="0.95600003" short="0.28 " long="0.28 "/>
+        <STEP value="0.960000038" short="0.26 " long="0.26 "/>
+        <STEP value="0.963000059" short="0.25 " long="0.25 "/>
+        <STEP value="0.971000075" short="0.22 " long="0.22 "/>
+        <STEP value="0.97300005" short="0.21 " long="0.21 "/>
+        <STEP value="0.976000071" short="0.20 " long="0.20 "/>
+        <STEP value="0.978000045" short="0.19 " long="0.19 "/>
+        <STEP value="0.981000066" short="0.18 " long="0.18 "/>
+        <STEP value="0.98300004" short="0.17 " long="0.17 "/>
+        <STEP value="0.986000061" short="0.16 " long="0.16 "/>
+        <STEP value="0.987000048" short="0.15 " long="0.15 "/>
+        <STEP value="0.988000035" short="0.15 " long="0.15 "/>
+        <STEP value="0.991000056" short="0.14 " long="0.14 "/>
+        <STEP value="0.996000051" short="0.12 " long="0.12 "/>
+        <STEP value="1" short="0.10 " long="0.10 "/>
+      </VPOT>
+      <VPOT short="LMF/3" long="LMF div3" paramId="21">
+        <STEP value="0" short="Off " long="Off "/>
+        <STEP value="1" short="On " long="On "/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="EQ&gt;Dyn" long="EQ&gt;Dynamic SC" paramId="13">
+        <STEP value="0" short="Off " long="Off "/>
+        <STEP value="1" short="On " long="On "/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="2" short="DYN" long="DYN" referTo="-1" offset="0">
+      <FADER short="Ratio" long="CompRatio" paramId="4"/>
+      <FADER short="Thresh" long="CompThresh" paramId="3"/>
+      <FADER short="Rel" long="CompRelease" paramId="6"/>
+      <FADER paramId="-1"/>
+      <FADER short="Range" long="ExpRange" paramId="10"/>
+      <FADER short="Thresh" long="ExpThresh" paramId="9"/>
+      <FADER short="Rel" long="ExpRelease" paramId="8"/>
+      <FADER paramId="-1"/>
+      <VPOT short="DYN:" long="DYN:" paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="F.ATK" long="CompFast" paramId="5">
+        <STEP value="0" short="Off " long="Off "/>
+        <STEP value="1" short="On " long="On "/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="GATE:" long="GATE:" paramId="-1"/>
+      <VPOT short="E/G" long="Expander/Gate" paramId="11">
+        <STEP value="0" short="Exp " long="Exp "/>
+        <STEP value="1" short="Gate " long="Gate "/>
+      </VPOT>
+      <VPOT short="DYNBYP" long="DynamicBypass" paramId="14">
+        <STEP value="0" short="Off " long="Off "/>
+        <STEP value="1" short="On " long="On "/>
+      </VPOT>
+      <VPOT short="CH OUT" long="DynaminCHOut" paramId="15">
+        <STEP value="0" short="Off " long="Off "/>
+        <STEP value="1" short="On " long="On "/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="3" short="I/O" long="I/O" referTo="-1" offset="0">
+      <FADER short="InputL" long="InputLevel" paramId="34"/>
+      <FADER short="Gain" long="Gain" paramId="31"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT short="VU I/O" long="VUInOut" paramId="32">
+        <STEP value="0" short="Input " long="Input "/>
+        <STEP value="1" short="Output" long="Output "/>
+      </VPOT>
+      <VPOT short="Analog" long="Analog" paramId="2">
+        <STEP value="0" short="Off " long="Off "/>
+        <STEP value="1" short="On " long="On "/>
+      </VPOT>
+      <VPOT short="PhaseR" long="PhaseReverse" paramId="33">
+        <STEP value="0" short="+ " long="+ "/>
+        <STEP value="1" short="- " long="- "/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

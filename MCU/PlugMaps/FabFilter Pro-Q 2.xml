@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLUGMAP version="1">
+  <MAPINFO creator="Chris Prunotto">Each Page in Bank 1 provides full control for two bands up to 16 bands. The only control not included is Gain Interaction and Stereo Split</MAPINFO>
+  <BANK id="0" short="PRO-Q2" long="Bands 1-16" referTo="-1" offset="0">
+    <PAGE id="0" short="1-2" long="Bands 1 and 2" referTo="-1" offset="0">
+      <FADER paramId="-1"/>
+      <FADER short="FREQ" long="Band 1 Frequency" paramId="1"/>
+      <FADER short="GAIN" long="Band 1 Gain" paramId="2"/>
+      <FADER short="Q" long="Band 1 Q" paramId="3"/>
+      <FADER paramId="-1"/>
+      <FADER short="FREQ" long="Band 2 Frequency" paramId="8"/>
+      <FADER short="GAIN" long="Band 2 Gain" paramId="9"/>
+      <FADER short="Q" long="Band 2 Q" paramId="10"/>
+      <VPOT short="BAND A" long="BAND A" paramId="-1"/>
+      <VPOT short="Power" long="Band 1 State" paramId="0">
+        <STEP value="0" short="Disabl" long="Disabled"/>
+        <STEP value="0.5" short="Enable" long="Enabled"/>
+      </VPOT>
+      <VPOT short="Shape" long="Band 1 Shape" paramId="4">
+        <STEP value="0" short="Bell" long="Bell"/>
+        <STEP value="0.142857149" short="Low Sh" long="Low Shelf"/>
+        <STEP value="0.285714298" short="Low Cu" long="Low Cut"/>
+        <STEP value="0.428571433" short="High S" long="High Shelf"/>
+        <STEP value="0.571428597" short="High C" long="High Cut"/>
+        <STEP value="0.714285731" short="Notch" long="Notch"/>
+        <STEP value="0.857142866" short="Band P" long="Band Pass"/>
+        <STEP value="1" short="Tilt S" long="Tilt Shelf"/>
+      </VPOT>
+      <VPOT short="Slope" long="Band 1 Slope" paramId="5">
+        <STEP value="0" short="6 dB/o" long="6 dB/oct"/>
+        <STEP value="0.125" short="12 dB/" long="12 dB/oct"/>
+        <STEP value="0.25" short="18 dB/" long="18 dB/oct"/>
+        <STEP value="0.375" short="24 dB/" long="24 dB/oct"/>
+        <STEP value="0.625" short="36 dB/" long="36 dB/oct"/>
+        <STEP value="0.75" short="48 dB/" long="48 dB/oct"/>
+        <STEP value="0.875" short="72 dB/" long="72 dB/oct"/>
+        <STEP value="1" short="96 dB/" long="96 dB/oct"/>
+      </VPOT>
+      <VPOT short="BAND B" long="BAND B" paramId="-1"/>
+      <VPOT short="Power" long="Band 2 State" paramId="7">
+        <STEP value="0" short="Disabl" long="Disabled"/>
+        <STEP value="0.5" short="Enable" long="Enabled"/>
+      </VPOT>
+      <VPOT short="Shape" long="Band 2 Shape" paramId="11">
+        <STEP value="0" short="Bell" long="Bell"/>
+        <STEP value="0.142857149" short="Low Sh" long="Low Shelf"/>
+        <STEP value="0.285714298" short="Low Cu" long="Low Cut"/>
+        <STEP value="0.428571433" short="High S" long="High Shelf"/>
+        <STEP value="0.571428597" short="High C" long="High Cut"/>
+        <STEP value="0.714285731" short="Notch" long="Notch"/>
+        <STEP value="0.857142866" short="Band P" long="Band Pass"/>
+        <STEP value="1" short="Tilt S" long="Tilt Shelf"/>
+      </VPOT>
+      <VPOT short="Slope" long="Band 2 Slope" paramId="12">
+        <STEP value="0.125" short="12 dB/" long="12 dB/oct"/>
+        <STEP value="0.375" short="24 dB/" long="24 dB/oct"/>
+        <STEP value="0.625" short="36 dB/" long="36 dB/oct"/>
+        <STEP value="0.75" short="48 dB/" long="48 dB/oct"/>
+        <STEP value="0.875" short="72 dB/" long="72 dB/oct"/>
+        <STEP value="1" short="96 dB/" long="96 dB/oct"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="1" short="3-4" long="Bands 3-4" referTo="0" offset="14">
+      <FADER short="Band 2" long="Band 2 Frequency" paramId="8"/>
+      <FADER short="Band 2" long="Band 2 Gain" paramId="9"/>
+      <FADER short="Band 2" long="Band 2 Q" paramId="10"/>
+      <FADER short="Band 2" long="Band 2 Shape" paramId="11"/>
+      <FADER short="Band 2" long="Band 2 Slope" paramId="12"/>
+      <FADER short="Band 2" long="Band 2 Stereo Pla" paramId="13"/>
+      <FADER short="Band 3" long="Band 3 State" paramId="14"/>
+      <FADER short="Band 3" long="Band 3 Frequency" paramId="15"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="2" short="5-6" long="Bands 5-6" referTo="0" offset="28">
+      <FADER short="Band 3" long="Band 3 Gain" paramId="16"/>
+      <FADER short="Band 3" long="Band 3 Q" paramId="17"/>
+      <FADER short="Band 3" long="Band 3 Shape" paramId="18"/>
+      <FADER short="Band 3" long="Band 3 Slope" paramId="19"/>
+      <FADER short="Band 3" long="Band 3 Stereo Pla" paramId="20"/>
+      <FADER short="Band 4" long="Band 4 State" paramId="21"/>
+      <FADER short="Band 4" long="Band 4 Frequency" paramId="22"/>
+      <FADER short="Band 4" long="Band 4 Gain" paramId="23"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="3" short="7-8" long="Bands 7-8" referTo="0" offset="42">
+      <FADER short="Band 4" long="Band 4 Q" paramId="24"/>
+      <FADER short="Band 4" long="Band 4 Shape" paramId="25"/>
+      <FADER short="Band 4" long="Band 4 Slope" paramId="26"/>
+      <FADER short="Band 4" long="Band 4 Stereo Pla" paramId="27"/>
+      <FADER short="Band 5" long="Band 5 State" paramId="28"/>
+      <FADER short="Band 5" long="Band 5 Frequency" paramId="29"/>
+      <FADER short="Band 5" long="Band 5 Gain" paramId="30"/>
+      <FADER short="Band 5" long="Band 5 Q" paramId="31"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="4" short="9-10" long="Bands 9-10" referTo="0" offset="56">
+      <FADER short="Band 5" long="Band 5 Shape" paramId="32"/>
+      <FADER short="Band 5" long="Band 5 Slope" paramId="33"/>
+      <FADER short="Band 5" long="Band 5 Stereo Pla" paramId="34"/>
+      <FADER short="Band 6" long="Band 6 State" paramId="35"/>
+      <FADER short="Band 6" long="Band 6 Frequency" paramId="36"/>
+      <FADER short="Band 6" long="Band 6 Gain" paramId="37"/>
+      <FADER short="Band 6" long="Band 6 Q" paramId="38"/>
+      <FADER short="Band 6" long="Band 6 Shape" paramId="39"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="5" short="11-12" long="Bands 11-12" referTo="0" offset="70">
+      <FADER short="Band 6" long="Band 6 Slope" paramId="40"/>
+      <FADER short="Band 6" long="Band 6 Stereo Pla" paramId="41"/>
+      <FADER short="Band 7" long="Band 7 State" paramId="42"/>
+      <FADER short="Band 7" long="Band 7 Frequency" paramId="43"/>
+      <FADER short="Band 7" long="Band 7 Gain" paramId="44"/>
+      <FADER short="Band 7" long="Band 7 Q" paramId="45"/>
+      <FADER short="Band 7" long="Band 7 Shape" paramId="46"/>
+      <FADER short="Band 7" long="Band 7 Slope" paramId="47"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="6" short="13-14" long="Bands 13-14" referTo="0" offset="84">
+      <FADER short="Band 7" long="Band 7 Stereo Pla" paramId="48"/>
+      <FADER short="Band 8" long="Band 8 State" paramId="49"/>
+      <FADER short="Band 8" long="Band 8 Frequency" paramId="50"/>
+      <FADER short="Band 8" long="Band 8 Gain" paramId="51"/>
+      <FADER short="Band 8" long="Band 8 Q" paramId="52"/>
+      <FADER short="Band 8" long="Band 8 Shape" paramId="53"/>
+      <FADER short="Band 8" long="Band 8 Slope" paramId="54"/>
+      <FADER short="Band 8" long="Band 8 Stereo Pla" paramId="55"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="7" short="15-16" long="Bands 15-16" referTo="0" offset="98">
+      <FADER short="Band 9" long="Band 9 State" paramId="56"/>
+      <FADER short="Band 9" long="Band 9 Frequency" paramId="57"/>
+      <FADER short="Band 9" long="Band 9 Gain" paramId="58"/>
+      <FADER short="Band 9" long="Band 9 Q" paramId="59"/>
+      <FADER short="Band 9" long="Band 9 Shape" paramId="60"/>
+      <FADER short="Band 9" long="Band 9 Slope" paramId="61"/>
+      <FADER short="Band 9" long="Band 9 Stereo Pla" paramId="62"/>
+      <FADER short="Band 1" long="Band 10 State" paramId="63"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+  <BANK id="1" short="SETUP" long="SETUP" referTo="-1" offset="112">
+    <PAGE id="0" short="GLOBAL" long="GLOBAL" referTo="-1" offset="0">
+      <FADER short="LEVEL" long="Output Level" paramId="172"/>
+      <FADER short="PAN" long="Output Pan" paramId="173"/>
+      <FADER short="ZOOM" long="Display Range" paramId="186"/>
+      <FADER short="SCALE" long="Gain Scale" paramId="171"/>
+      <FADER short="INVERT" long="Output Invert Pha" paramId="175"/>
+      <FADER short="BYPASS" long="BYPASS" paramId="174"/>
+      <FADER short="GAIN" long="Auto Gain" paramId="176"/>
+      <FADER paramId="-1"/>
+      <VPOT short="OUTPUT" long="OUTPUT" paramId="-1"/>
+      <VPOT short="OUTPUT" long="OUTPUT" paramId="-1"/>
+      <VPOT short="RANGE" long="RANGE" paramId="-1"/>
+      <VPOT short="GAIN" long="GAIN" paramId="-1"/>
+      <VPOT short="PHASE" long="PHASE" paramId="-1"/>
+      <VPOT short="PLUGIN" long="PLUGIN" paramId="-1"/>
+      <VPOT short="AUTO" long="AUTO" paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

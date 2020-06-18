@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLUGMAP version="1">
+  <MAPINFO creator=""></MAPINFO>
+  <BANK id="0" short="Main" long="Main" referTo="-1" offset="0">
+    <PAGE id="0" short="MAIN" long="MAIN" referTo="-1" offset="0">
+      <FADER short="FREQ" long="Frequency" paramId="10"/>
+      <FADER short="Ratio" long="Ratio" paramId="4"/>
+      <FADER short="Respon" long="Response" paramId="7"/>
+      <FADER short="Decay" long="Harmonics Decay" paramId="6"/>
+      <FADER paramId="-1"/>
+      <FADER short="Input" long="Input Gain" paramId="2"/>
+      <FADER short="Origin" long="Original Bass Gai" paramId="3"/>
+      <FADER short="Maxx" long="Maxx Bass Gain" paramId="5"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="DYN:" long="DYN:" paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="HPSLPE" long="Highpass Slope" paramId="9">
+        <STEP value="0" short="6dB/Oc" long="6dB/Octave "/>
+        <STEP value="0.5" short="12dB/O" long="12dB/Octave "/>
+        <STEP value="1" short="24dB/O" long="24dB/Octave "/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="MON" long="Monitor" paramId="8">
+        <STEP value="0" short="Audio " long="Audio "/>
+        <STEP value="0.5" short="MaxxBa" long="MaxxBass "/>
+        <STEP value="1" short="OrigBa" long="OrigBass "/>
+      </VPOT>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

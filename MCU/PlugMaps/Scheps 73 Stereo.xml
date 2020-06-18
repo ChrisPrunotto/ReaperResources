@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLUGMAP version="1">
+  <MAPINFO creator=""></MAPINFO>
+  <BANK id="0" short="MAIN" long="MAIN" referTo="-1" offset="0">
+    <PAGE id="0" short="MAIN" long="MAIN (Left/Mid)" referTo="-1" offset="0">
+      <FADER short="PreAmp" long="PREAMP L" paramId="2"/>
+      <FADER short="HIGH" long="High Gain L/M" paramId="7"/>
+      <FADER short="MID" long="Mid Gain L/M" paramId="12"/>
+      <FADER short="MIDFRQ" long="Mid Frequency L/M" paramId="10"/>
+      <FADER short="LOW" long="Low Gain L/M" paramId="17"/>
+      <FADER short="LOWFRQ" long="Low Frequency L/M" paramId="15"/>
+      <FADER short="HPF" long="High Pass L/M" paramId="19"/>
+      <FADER paramId="-1"/>
+      <VPOT short="PRE:" long="PRE:" paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Phase" long="Phase L/M" paramId="24">
+        <STEP value="0" short="Out " long="Out "/>
+        <STEP value="1" short="In " long="In "/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="1" short="MAIN2" long="MAIN (Right/Side)" referTo="0" offset="1">
+      <FADER short="PreAmp" long="PreAmp R/S" paramId="3"/>
+      <FADER short="High G" long="High Gain R/S" paramId="8"/>
+      <FADER short="Mid Ga" long="Mid Gain R/S" paramId="13"/>
+      <FADER short="Mid Fr" long="Mid Frequency R/S" paramId="11"/>
+      <FADER short="Low Ga" long="Low Gain R/S" paramId="18"/>
+      <FADER short="Low Fr" long="Low Frequency R/S" paramId="16"/>
+      <FADER short="High P" long="High Pass R/S" paramId="20"/>
+      <FADER short="High P" long="High Pass R/S" paramId="20"/>
+      <VPOT short="High O" long="High On/Off" paramId="6">
+        <STEP value="0" short="Off " long="Off "/>
+        <STEP value="1" short="On " long="On "/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="High O" long="High On/Off" paramId="6">
+        <STEP value="0" short="Off " long="Off "/>
+        <STEP value="1" short="On " long="On "/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="Low Fr" long="Low Frequency L/M" paramId="15">
+        <STEP value="0" short="35 Hz" long="35 Hz"/>
+        <STEP value="1" short="220 Hz" long="220 Hz"/>
+      </VPOT>
+      <VPOT short="High P" long="High Pass R/S On/" paramId="22">
+        <STEP value="0" short="Off " long="Off "/>
+        <STEP value="1" short="On " long="On "/>
+      </VPOT>
+      <VPOT short="PreAmp" long="PreAmp On/Off" paramId="5">
+        <STEP value="0" short="Off " long="Off "/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="2" short="FILTER" long="Filter Enables" referTo="-1" offset="0">
+      <FADER short="PreAmp" long="PreAmp On/Off" paramId="5"/>
+      <FADER short="High" long="High On/Off" paramId="6"/>
+      <FADER short="Mid" long="Mid On/Off" paramId="9"/>
+      <FADER short="Low" long="Low On/Off" paramId="14"/>
+      <FADER short="HPF-L" long="HPF Left/Mid" paramId="21"/>
+      <FADER short="HPF-R" long="HPF Right/Side" paramId="22"/>
+      <FADER short="L-EN" long="Phase L/M" paramId="24"/>
+      <FADER short="R-EN" long="Phase R/S" paramId="25"/>
+      <VPOT short="DRIVE" long="PreAmp Drive" paramId="4">
+        <STEP value="0" short="Off " long="Off "/>
+        <STEP value="1" short="On " long="On "/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="HPF:" long="HPF:" paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="PHASE:" long="PHASE:" paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="3" short="I/O" long="I/O" referTo="-1" offset="1">
+      <FADER short="Link I" long="Link I/O" paramId="32"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="L/M" long="Input L/M" paramId="28"/>
+      <FADER short="R/S" long="Input R/S" paramId="29"/>
+      <FADER short="L/M" long="Output L/M" paramId="30"/>
+      <FADER short="R/S" long="Output R/S" paramId="31"/>
+      <VPOT short="BYPASS" long="BYPASS" paramId="23">
+        <STEP value="0" short="Out " long="Out "/>
+        <STEP value="1" short="In " long="In "/>
+      </VPOT>
+      <VPOT short="MONTR" long="Monitor" paramId="26">
+        <STEP value="0" short="Left " long="Left "/>
+        <STEP value="0.333333343" short="Mono " long="Mono "/>
+        <STEP value="0.666666687" short="Stereo" long="Stereo "/>
+        <STEP value="1" short="Right " long="Right "/>
+      </VPOT>
+      <VPOT short="MODE" long="EQ Mode" paramId="27">
+        <STEP value="0" short="Stereo" long="Stereo "/>
+        <STEP value="0.5" short="Duo " long="Duo "/>
+        <STEP value="1" short="MS " long="MS "/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="IN:" long="IN:" paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="OUT:" long="OUT:" paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLUGMAP version="1">
+  <MAPINFO creator=""></MAPINFO>
+  <BANK id="0" short="" long="" referTo="-1" offset="0">
+    <PAGE id="0" short="MAIN" long="MAIN" referTo="-1" offset="0">
+      <FADER short="WBGain" long="Wide Band Gain" paramId="56"/>
+      <FADER short="B1Gain" long="Band 1 Gain" paramId="2"/>
+      <FADER short="B2Gain" long="Band 2 Gain" paramId="14"/>
+      <FADER short="B3Gain" long="Band 3 Gain" paramId="26"/>
+      <FADER short="B4Gain" long="Band 4 Gain" paramId="38"/>
+      <FADER paramId="-1"/>
+      <FADER short="HP-Frq" long="HP Frequency" paramId="50"/>
+      <FADER short="LP-Frq" long="LP Frequency" paramId="54"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="BAND 1" long="Band 1 Active" paramId="1">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="BAND 2" long="Band 2 Active" paramId="13">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="BAND3" long="Band 3 Active" paramId="25">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="BAND4" long="Band 4 Active" paramId="37">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="HPF" long="HP Active" paramId="49">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="LPF" long="LP Active" paramId="53">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="1" short="WIDE" long="Wideband Detail" referTo="-1" offset="0">
+      <FADER short="WBGain" long="Wide Band Gain" paramId="56"/>
+      <FADER paramId="-1"/>
+      <FADER short="Thresh" long="Wide Band Thres" paramId="58"/>
+      <FADER short="Ratio" long="Wide Band Ratio" paramId="59"/>
+      <FADER short="Attack" long="Wide Band Attac" paramId="60"/>
+      <FADER short="Rel" long="Wide Band Relea" paramId="61"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="DYN:" long="Wide Band Dyn" paramId="57">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="2" short="BAND1" long="Band 1 Detail" referTo="-1" offset="0">
+      <FADER paramId="-1"/>
+      <FADER short="Q" long="Band 1 Q" paramId="3"/>
+      <FADER short="Freq" long="Band 1 Frequenc" paramId="4"/>
+      <FADER short="Gain" long="Band 1 Gain" paramId="2"/>
+      <FADER short="Thresh" long="Band 1 Threshol" paramId="7"/>
+      <FADER short="Ratio" long="Band 1 Ratio" paramId="8"/>
+      <FADER short="Attack" long="Band 1 Attack" paramId="10"/>
+      <FADER short="Rel" long="Band 1 Release" paramId="11"/>
+      <VPOT short="ACTIVE" long="Band 1 Active" paramId="1">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="TYPE" long="Band 1 Type" paramId="5">
+        <STEP value="0" short="Low S" long="Low S"/>
+        <STEP value="0.5" short="Bell" long="Bell"/>
+        <STEP value="1" short="High S" long="High S"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="DYN" long="Band 1 Dyn" paramId="6">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="0.5" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="WBSPLT" long="Band 1 Split" paramId="9">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="3" short="BAND2" long="Band 2 Detail" referTo="-1" offset="12">
+      <FADER paramId="-1"/>
+      <FADER short="Q" long="Band 2 Q" paramId="15"/>
+      <FADER short="Freq" long="Band 2 Frequenc" paramId="16"/>
+      <FADER short="Gain" long="Band 2 Gain" paramId="14"/>
+      <FADER short="Thresh" long="Band 2 Threshol" paramId="19"/>
+      <FADER short="Ratio" long="Band 2 Ratio" paramId="20"/>
+      <FADER short="Attack" long="Band 2 Attack" paramId="22"/>
+      <FADER short="Rel" long="Band 2 Release" paramId="23"/>
+      <VPOT short="ACTIVE" long="Band 2 Active" paramId="13">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="TYPE" long="Band 2 Type" paramId="17">
+        <STEP value="0" short="Low S" long="Low S"/>
+        <STEP value="0.5" short="Bell" long="Bell"/>
+        <STEP value="1" short="High S" long="High S"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="DYN:" long="Band 2 Dyn" paramId="18">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="0.5" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="WBSPLT" long="Band 2 Split" paramId="21">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="4" short="BAND3" long="Band 3 Detail" referTo="-1" offset="12">
+      <FADER paramId="-1"/>
+      <FADER short="Q" long="Band 3 Q" paramId="27"/>
+      <FADER short="Freq" long="Band 3 Frequenc" paramId="28"/>
+      <FADER short="Gain" long="Band 3 Gain" paramId="26"/>
+      <FADER short="Thresh" long="Band 3 Threshol" paramId="31"/>
+      <FADER short="Ratio" long="Band 3 Ratio" paramId="32"/>
+      <FADER short="Attack" long="Band 3 Attack" paramId="34"/>
+      <FADER short="Band 3" long="Band 3 Release" paramId="35"/>
+      <VPOT short="ACTIVE" long="Band 3 Active" paramId="25">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="TYPE" long="Band 3 Type" paramId="29">
+        <STEP value="0" short="Low S" long="Low S"/>
+        <STEP value="0.5" short="Bell" long="Bell"/>
+        <STEP value="1" short="High S" long="High S"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="DYN:" long="Band 3 Dyn" paramId="30">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="0.5" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="WBSPLT" long="Band 3 Split" paramId="33">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="5" short="BAND 4" long="Band 4 Detail" referTo="-1" offset="12">
+      <FADER paramId="-1"/>
+      <FADER short="Q" long="Band 4 Q" paramId="39"/>
+      <FADER short="Freq" long="Band 4 Frequenc" paramId="40"/>
+      <FADER short="Gain" long="Band 4 Gain" paramId="38"/>
+      <FADER short="Thresh" long="Band 4 Threshol" paramId="43"/>
+      <FADER short="Ratio" long="Band 4 Ratio" paramId="44"/>
+      <FADER short="Attack" long="Band 4 Attack" paramId="46"/>
+      <FADER short="Rel" long="Band 4 Release" paramId="47"/>
+      <VPOT short="ACTIVE" long="Band 4 Active" paramId="37">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="TYPE" long="Band 4 Type" paramId="41">
+        <STEP value="0" short="Low S" long="Low S"/>
+        <STEP value="0.5" short="Bell" long="Bell"/>
+        <STEP value="1" short="High S" long="High S"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="DYN:" long="Band 4 Dyn" paramId="42">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="0.5" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="WBSPLT" long="Band 4 Split" paramId="45">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="6" short="IO/FLT" long="IO/Filter Detail" referTo="-1" offset="0">
+      <FADER short="HP Fre" long="HP Frequency" paramId="50"/>
+      <FADER paramId="-1"/>
+      <FADER short="LP Fre" long="LP Frequency" paramId="54"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="DryMix" long="Dry Mix" paramId="64"/>
+      <FADER short="Output" long="Output Gain" paramId="65"/>
+      <VPOT short="HPF" long="HP Active" paramId="49">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="HP Typ" long="HP Type" paramId="51">
+        <STEP value="0" short="6dB/oc" long="6dB/oct"/>
+        <STEP value="0.333333343" short="12dB/o" long="12dB/oct"/>
+        <STEP value="0.666666687" short="24dB/o" long="24dB/oct"/>
+        <STEP value="1" short="72dB/o" long="72dB/oct"/>
+      </VPOT>
+      <VPOT short="LP Act" long="LP Active" paramId="53">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="LP Typ" long="LP Type" paramId="55">
+        <STEP value="0" short="6dB/oc" long="6dB/oct"/>
+        <STEP value="0.333333343" short="12dB/o" long="12dB/oct"/>
+        <STEP value="0.666666687" short="24dB/o" long="24dB/oct"/>
+        <STEP value="1" short="72dB/o" long="72dB/oct"/>
+      </VPOT>
+      <VPOT short="SC KEY" long="Sidechain Mode" paramId="72">
+        <STEP value="0" short="Int SC" long="Int SC"/>
+        <STEP value="0.5" short="Ext SC" long="Ext SC"/>
+        <STEP value="1" short="Int SC" long="Int SC (Flat)"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="AUTOG" long="EQ Auto Gain" paramId="66">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

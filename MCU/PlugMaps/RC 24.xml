@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLUGMAP version="1">
+  <MAPINFO creator="Chris Prunotto">Main settings on page 1, options on page 2.</MAPINFO>
+  <BANK id="0" short="MAIN" long="MAIN" referTo="-1" offset="0">
+    <PAGE id="0" short="MAIN" long="MAIN" referTo="-1" offset="0">
+      <FADER short="PreDly" long="Predelay" paramId="0"/>
+      <FADER short="Depth" long="Depth" paramId="1"/>
+      <FADER short="Intens" long="Intensity" paramId="2"/>
+      <FADER short="Bass" long="Bass" paramId="4"/>
+      <FADER short="X-Over" long="Crossover" paramId="6"/>
+      <FADER short="Mid" long="Mid" paramId="5"/>
+      <FADER short="Hi Cut" long="Hi Cut" paramId="7"/>
+      <FADER short="Mix" long="Mix" paramId="11"/>
+      <VPOT short="VERB:" long="VERB:" paramId="-1"/>
+      <VPOT short="ROOM" long="Algorithm" paramId="8">
+        <STEP value="0" short="Large " long="Large Hall"/>
+        <STEP value="0.5" short="Small " long="Small Hall"/>
+        <STEP value="1" short="Room" long="Room"/>
+      </VPOT>
+      <VPOT short="MOD" long="Modulation" paramId="3">
+        <STEP value="0" short="Mode A" long="Mode A"/>
+        <STEP value="0.333333343" short="Mode B" long="Mode B"/>
+        <STEP value="0.666666687" short="Mode C" long="Mode C"/>
+        <STEP value="1" short="Mode D" long="Mode D"/>
+      </VPOT>
+      <VPOT short="EQ:" long="EQ:" paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="WETDRY" long="Mix Mode" paramId="10">
+        <STEP value="0" short="Wet" long="Wet"/>
+        <STEP value="1" short="Mix" long="Mix"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="1" short="OPTION" long="OPTION" referTo="-1" offset="0">
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="TRIM:" long="TRIM:" paramId="-1"/>
+      <FADER short="Input" long="Input" paramId="12"/>
+      <FADER short="Output" long="Output" paramId="13"/>
+      <VPOT short="OPTS:" long="OPTS:" paramId="-1"/>
+      <VPOT short="QNOISE" long="Quantize Noise" paramId="14">
+        <STEP value="0" short="off" long="off"/>
+        <STEP value="1" short="on" long="on"/>
+      </VPOT>
+      <VPOT short="COLOR" long="Reverb Color" paramId="9">
+        <STEP value="0" short="Dark" long="Dark"/>
+        <STEP value="1" short="Bright" long="Bright"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

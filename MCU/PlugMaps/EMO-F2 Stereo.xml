@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLUGMAP version="1">
+  <MAPINFO creator=""></MAPINFO>
+  <BANK id="0" short="MAIN" long="MAIN" referTo="-1" offset="0">
+    <PAGE id="0" short="FILTER" long="FILTER" referTo="-1" offset="0">
+      <FADER short="FREQ-L" long="HPF-Frequency" paramId="4"/>
+      <FADER short="FREQ-L" long="LPF Frequency" paramId="6"/>
+      <FADER paramId="-1"/>
+      <FADER short="FREQ-R" long="HPF Frequency" paramId="8"/>
+      <FADER short="FREQ-R" long="LPF Frequency" paramId="10"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Preset" long="Preset" paramId="1"/>
+      <VPOT short="HPF-L" long="HPF-L Enable" paramId="3">
+        <STEP value="0" short="Off " long="Off "/>
+        <STEP value="1" short="On " long="On "/>
+      </VPOT>
+      <VPOT short="LPF-L" long="LPF-L Enable" paramId="5">
+        <STEP value="0" short="Off " long="Off "/>
+        <STEP value="1" short="On " long="On "/>
+      </VPOT>
+      <VPOT short="LINK" long="Link Enable" paramId="2">
+        <STEP value="0" short="Off " long="Off "/>
+        <STEP value="1" short="On " long="On "/>
+      </VPOT>
+      <VPOT short="HPF-R" long="HPF Enable" paramId="7">
+        <STEP value="0" short="Off " long="Off "/>
+        <STEP value="1" short="On " long="On "/>
+      </VPOT>
+      <VPOT short="LPF-R" long="LPF Enable" paramId="9">
+        <STEP value="0" short="Off " long="Off "/>
+        <STEP value="1" short="On " long="On "/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Bypass" long="Bypass" paramId="0"/>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

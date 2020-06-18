@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLUGMAP version="1">
+  <MAPINFO creator=""></MAPINFO>
+  <BANK id="0" short="MAIN" long="MAIN" referTo="-1" offset="0">
+    <PAGE id="0" short="Filter" long="Filters" referTo="-1" offset="0">
+      <FADER short="Cutoff" long="Lowpass Cutoff" paramId="5"/>
+      <FADER short="Type" long="Lowpass Type" paramId="6"/>
+      <FADER short="Order" long="Lowpass Order" paramId="7"/>
+      <FADER short="PARAM" long="LP Parameter" paramId="8"/>
+      <FADER short="Cutoff" long="Highpass Cutoff" paramId="10"/>
+      <FADER short="Type" long="Highpass Type" paramId="11"/>
+      <FADER short="Order" long="Highpass Order" paramId="12"/>
+      <FADER short="Param" long="HP Parameter" paramId="13"/>
+      <VPOT short="LP PWR" long="Lowpass On/Off" paramId="4">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="HP PWR" long="Highpass On/Off" paramId="9">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="Phase" long="Phase Rev." paramId="2">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="GAIN" long="Input Gain" paramId="3">
+        <STEP value="0" short="-12.0 " long="-12.0 dB"/>
+        <STEP value="0.00199997425" short="-12.0 " long="-12.0 dB"/>
+        <STEP value="0.00799995661" short="-11.8 " long="-11.8 dB"/>
+        <STEP value="0.0259999633" short="-11.4 " long="-11.4 dB"/>
+        <STEP value="0.0319999754" short="-11.2 " long="-11.2 dB"/>
+        <STEP value="0.0619999766" short="-10.5 " long="-10.5 dB"/>
+        <STEP value="0.067999959" short="-10.4 " long="-10.4 dB"/>
+        <STEP value="0.0739999712" short="-10.2 " long="-10.2 dB"/>
+        <STEP value="0.0799999833" short="-10.1 " long="-10.1 dB"/>
+        <STEP value="0.0859999657" short="-9.9 d" long="-9.9 dB"/>
+        <STEP value="0.0919999778" short="-9.8 d" long="-9.8 dB"/>
+        <STEP value="0.09799999" short="-9.6 d" long="-9.6 dB"/>
+        <STEP value="0.109999985" short="-9.4 d" long="-9.4 dB"/>
+        <STEP value="0.121999979" short="-9.1 d" long="-9.1 dB"/>
+        <STEP value="0.127999991" short="-8.9 d" long="-8.9 dB"/>
+        <STEP value="0.139999986" short="-8.6 d" long="-8.6 dB"/>
+        <STEP value="0.15199998" short="-8.4 d" long="-8.4 dB"/>
+        <STEP value="0.157999992" short="-8.2 d" long="-8.2 dB"/>
+        <STEP value="0.163999975" short="-8.1 d" long="-8.1 dB"/>
+        <STEP value="0.175999969" short="-7.8 d" long="-7.8 dB"/>
+        <STEP value="0.187999994" short="-7.5 d" long="-7.5 dB"/>
+        <STEP value="0.193999976" short="-7.3 d" long="-7.3 dB"/>
+        <STEP value="0.217999995" short="-6.8 d" long="-6.8 dB"/>
+        <STEP value="0.223999977" short="-6.6 d" long="-6.6 dB"/>
+        <STEP value="0.229999989" short="-6.5 d" long="-6.5 dB"/>
+        <STEP value="0.253999978" short="-5.9 d" long="-5.9 dB"/>
+        <STEP value="0.265999973" short="-5.6 d" long="-5.6 dB"/>
+        <STEP value="0.289999992" short="-5.0 d" long="-5.0 dB"/>
+        <STEP value="0.296000004" short="-4.9 d" long="-4.9 dB"/>
+        <STEP value="0.301999986" short="-4.8 d" long="-4.8 dB"/>
+        <STEP value="0.307999969" short="-4.6 d" long="-4.6 dB"/>
+        <STEP value="0.319999993" short="-4.3 d" long="-4.3 dB"/>
+        <STEP value="0.325999975" short="-4.2 d" long="-4.2 dB"/>
+        <STEP value="0.331999987" short="-4.0 d" long="-4.0 dB"/>
+        <STEP value="0.343999982" short="-3.7 d" long="-3.7 dB"/>
+        <STEP value="0.356000006" short="-3.5 d" long="-3.5 dB"/>
+        <STEP value="0.361999989" short="-3.3 d" long="-3.3 dB"/>
+        <STEP value="0.367999971" short="-3.2 d" long="-3.2 dB"/>
+        <STEP value="0.374000013" short="-3.0 d" long="-3.0 dB"/>
+        <STEP value="0.385999978" short="-2.7 d" long="-2.7 dB"/>
+        <STEP value="0.39199999" short="-2.6 d" long="-2.6 dB"/>
+        <STEP value="0.398000002" short="-2.4 d" long="-2.4 dB"/>
+        <STEP value="0.403999984" short="-2.3 d" long="-2.3 dB"/>
+        <STEP value="0.409999996" short="-2.2 d" long="-2.2 dB"/>
+        <STEP value="0.416000009" short="-2.0 d" long="-2.0 dB"/>
+        <STEP value="0.421999991" short="-1.9 d" long="-1.9 dB"/>
+        <STEP value="0.428000003" short="-1.7 d" long="-1.7 dB"/>
+        <STEP value="0.433999985" short="-1.6 d" long="-1.6 dB"/>
+        <STEP value="0.439999998" short="-1.4 d" long="-1.4 dB"/>
+        <STEP value="0.44599998" short="-1.3 d" long="-1.3 dB"/>
+        <STEP value="0.451999992" short="-1.2 d" long="-1.2 dB"/>
+        <STEP value="0.458000004" short="-1.0 d" long="-1.0 dB"/>
+        <STEP value="0.463999987" short="-0.9 d" long="-0.9 dB"/>
+        <STEP value="0.469999999" short="-0.7 d" long="-0.7 dB"/>
+        <STEP value="0.476000011" short="-0.6 d" long="-0.6 dB"/>
+        <STEP value="0.488000005" short="-0.3 d" long="-0.3 dB"/>
+        <STEP value="0.493999988" short="-0.1 d" long="-0.1 dB"/>
+        <STEP value="0.5" short="0.0 dB" long="0.0 dB"/>
+        <STEP value="0.518000007" short="+0.4 d" long="+0.4 dB"/>
+        <STEP value="0.523999989" short="+0.6 d" long="+0.6 dB"/>
+        <STEP value="0.529999971" short="+0.7 d" long="+0.7 dB"/>
+        <STEP value="0.536000013" short="+0.9 d" long="+0.9 dB"/>
+        <STEP value="0.541999996" short="+1.0 d" long="+1.0 dB"/>
+        <STEP value="0.55400002" short="+1.3 d" long="+1.3 dB"/>
+        <STEP value="0.565999985" short="+1.6 d" long="+1.6 dB"/>
+        <STEP value="0.572000027" short="+1.7 d" long="+1.7 dB"/>
+        <STEP value="0.578000009" short="+1.9 d" long="+1.9 dB"/>
+        <STEP value="0.601999998" short="+2.4 d" long="+2.4 dB"/>
+        <STEP value="0.620000005" short="+2.9 d" long="+2.9 dB"/>
+        <STEP value="0.625999987" short="+3.0 d" long="+3.0 dB"/>
+        <STEP value="0.649999976" short="+3.6 d" long="+3.6 dB"/>
+        <STEP value="0.667999983" short="+4.0 d" long="+4.0 dB"/>
+        <STEP value="0.680000007" short="+4.3 d" long="+4.3 dB"/>
+        <STEP value="0.68599999" short="+4.5 d" long="+4.5 dB"/>
+        <STEP value="0.698000014" short="+4.8 d" long="+4.8 dB"/>
+        <STEP value="0.703999996" short="+4.9 d" long="+4.9 dB"/>
+        <STEP value="0.716000021" short="+5.2 d" long="+5.2 dB"/>
+        <STEP value="0.728000045" short="+5.5 d" long="+5.5 dB"/>
+        <STEP value="0.74000001" short="+5.8 d" long="+5.8 dB"/>
+        <STEP value="0.751999974" short="+6.0 d" long="+6.0 dB"/>
+        <STEP value="0.764000058" short="+6.3 d" long="+6.3 dB"/>
+        <STEP value="0.769999981" short="+6.5 d" long="+6.5 dB"/>
+        <STEP value="0.776000023" short="+6.6 d" long="+6.6 dB"/>
+        <STEP value="0.79400003" short="+7.1 d" long="+7.1 dB"/>
+        <STEP value="0.800000012" short="+7.2 d" long="+7.2 dB"/>
+        <STEP value="0.805999994" short="+7.3 d" long="+7.3 dB"/>
+        <STEP value="0.824000001" short="+7.8 d" long="+7.8 dB"/>
+        <STEP value="0.84800005" short="+8.4 d" long="+8.4 dB"/>
+        <STEP value="0.860000014" short="+8.6 d" long="+8.6 dB"/>
+        <STEP value="0.878000021" short="+9.1 d" long="+9.1 dB"/>
+        <STEP value="0.90200001" short="+9.6 d" long="+9.6 dB"/>
+        <STEP value="0.907999992" short="+9.8 d" long="+9.8 dB"/>
+        <STEP value="0.925999999" short="+10.2 " long="+10.2 dB"/>
+        <STEP value="0.938000023" short="+10.5 " long="+10.5 dB"/>
+        <STEP value="0.95600003" short="+10.9 " long="+10.9 dB"/>
+        <STEP value="0.962000012" short="+11.1 " long="+11.1 dB"/>
+        <STEP value="0.974000037" short="+11.4 " long="+11.4 dB"/>
+        <STEP value="0.980000019" short="+11.5 " long="+11.5 dB"/>
+        <STEP value="0.986000061" short="+11.7 " long="+11.7 dB"/>
+        <STEP value="1" short="+12.0 " long="+12.0 dB"/>
+      </VPOT>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

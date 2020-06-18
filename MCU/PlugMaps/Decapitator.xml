@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLUGMAP version="1">
+  <MAPINFO creator=""></MAPINFO>
+  <BANK id="0" short="MAIN" long="MAIN" referTo="-1" offset="0">
+    <PAGE id="0" short="MAIN" long="MAIN" referTo="-1" offset="0">
+      <FADER short="Drive" long="Drive" paramId="2"/>
+      <FADER short="LowCut" long="LowCut" paramId="4"/>
+      <FADER short="Tone" long="Tone" paramId="5"/>
+      <FADER short="HiCut" long="HighCut" paramId="6"/>
+      <FADER short="Output" long="Output Trim" paramId="11"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Mix" long="Mix" paramId="7"/>
+      <VPOT short="PUNISH" long="PUNISH" paramId="3">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="THUMP" long="LowThump" paramId="9">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Style" long="Style" paramId="1">
+        <STEP value="0" short="A" long="A"/>
+        <STEP value="0.25" short="E" long="E"/>
+        <STEP value="0.5" short="N" long="N"/>
+        <STEP value="0.75" short="T" long="T"/>
+        <STEP value="1" short="P" long="P"/>
+      </VPOT>
+      <VPOT short="SLOPE" long="HighSlope" paramId="10">
+        <STEP value="0" short="Gentle" long="Gentle"/>
+        <STEP value="1" short="Steep" long="Steep"/>
+      </VPOT>
+      <VPOT short="AUTO" long="AutoGain" paramId="8">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

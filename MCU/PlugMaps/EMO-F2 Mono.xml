@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLUGMAP version="1">
+  <MAPINFO creator=""></MAPINFO>
+  <BANK id="0" short="" long="" referTo="-1" offset="0">
+    <PAGE id="0" short="MAIN" long="MAIN" referTo="-1" offset="0">
+      <FADER short="FREQ" long="HPF Frequency" paramId="3"/>
+      <FADER short="FREQ" long="LPF Frequency" paramId="5"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT short="HPF EN" long="HPF Enable" paramId="2">
+        <STEP value="0" short="Off " long="Off "/>
+        <STEP value="1" short="On " long="On "/>
+      </VPOT>
+      <VPOT short="LPF EN" long="LPF Enable" paramId="4">
+        <STEP value="0" short="Off " long="Off "/>
+        <STEP value="1" short="On " long="On "/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

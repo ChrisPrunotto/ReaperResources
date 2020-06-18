@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLUGMAP version="1">
+  <MAPINFO creator=""></MAPINFO>
+  <BANK id="0" short="" long="" referTo="-1" offset="0">
+    <PAGE id="0" short="" long="" referTo="-1" offset="0">
+      <FADER short="Thresh" long="Threshold" paramId="3"/>
+      <FADER short="Ratio" long="Ratio" paramId="5"/>
+      <FADER paramId="-1"/>
+      <FADER short="Attack" long="Attack" paramId="4"/>
+      <FADER short="Releas" long="Release" paramId="8"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Gain" long="Gain" paramId="2"/>
+      <VPOT short="ARC" long="ARC / Manual" paramId="6">
+        <STEP value="0" short="ARC " long="ARC "/>
+        <STEP value="1" short="Manual" long="Manual "/>
+      </VPOT>
+      <VPOT short="ELEC" long="Electro / Opto" paramId="9">
+        <STEP value="0" short="Electr" long="Electro "/>
+        <STEP value="1" short="Opto " long="Opto "/>
+      </VPOT>
+      <VPOT short="WARM" long="Warm / Smooth" paramId="7">
+        <STEP value="0" short="Warm " long="Warm "/>
+        <STEP value="1" short="Smooth" long="Smooth "/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

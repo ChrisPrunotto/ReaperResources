@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLUGMAP version="1">
+  <MAPINFO creator=""></MAPINFO>
+  <BANK id="0" short="" long="" referTo="-1" offset="0">
+    <PAGE id="0" short="Main" long="Main" referTo="-1" offset="0">
+      <FADER short="Resona" long="Resonance" paramId="2"/>
+      <FADER short="F.ENV " long="F.ENV Modulation" paramId="12"/>
+      <FADER short="Freque" long="Frequency" paramId="3"/>
+      <FADER short="F.AM M" long="F.AM Modulation" paramId="20"/>
+      <FADER short="D.ENV " long="D.ENV Modulation" paramId="15"/>
+      <FADER short="Distor" long="Distortion" paramId="4"/>
+      <FADER short="D.AM M" long="D.AM Modulation" paramId="21"/>
+      <FADER short="Color" long="Color" paramId="5"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="6">
+        <STEP value="0" short="LPF" long="LPF"/>
+        <STEP value="1" short="Notch" long="Notch"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="1" short="ENV+" long="ENV+" referTo="-1" offset="0">
+      <FADER short="Smooth" long="Smooth" paramId="10"/>
+      <FADER short="Releas" long="Release" paramId="11"/>
+      <FADER paramId="-1"/>
+      <FADER short="Var 1" long="Var 1 (Env/INPUT)" paramId="17"/>
+      <FADER short="Var 2" long="Var 2 (Rate/Cut)" paramId="18"/>
+      <FADER short="Var 3" long="Var 3 (RANGE/Lag)" paramId="19"/>
+      <FADER short="Input" long="Input" paramId="0"/>
+      <FADER short="Output" long="Output" paramId="7"/>
+      <VPOT short="ENV:" long="ENV:" paramId="-1"/>
+      <VPOT short="SCHAIN" long="SCHAIN" paramId="8">
+        <STEP value="0" short="Input" long="Input"/>
+        <STEP value="1" short="Sidech" long="Sidechain"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="AM:" long="AM:" paramId="-1"/>
+      <VPOT short="MODE" long="MODE" paramId="-1">
+        <STEP value="0" short="OSC" long="Oscillator"/>
+        <STEP value="1" short="Audio" long="Audio"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="I/O:" long="I/O:" paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

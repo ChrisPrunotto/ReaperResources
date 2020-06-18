@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLUGMAP version="1">
+  <MAPINFO creator="Chris Prunotto"></MAPINFO>
+  <BANK id="0" short="" long="" referTo="-1" offset="0">
+    <PAGE id="0" short="" long="" referTo="-1" offset="0">
+      <FADER paramId="-1"/>
+      <FADER short="Boost" long="LowBoost" paramId="2"/>
+      <FADER short="Atten" long="LowAtten" paramId="3"/>
+      <FADER short="BWidth" long="Bandwidth" paramId="6"/>
+      <FADER short="Boost" long="HiBoost" paramId="5"/>
+      <FADER short="Atten" long="HiAtten" paramId="8"/>
+      <FADER paramId="-1"/>
+      <FADER short="Gain" long="Gain" paramId="10"/>
+      <VPOT short="BYPASS" long="BYPASS" paramId="12">
+        <STEP value="0" short="Off " long="Off "/>
+        <STEP value="1" short="On " long="On "/>
+      </VPOT>
+      <VPOT short="LOW:" long="LOW:" paramId="-1"/>
+      <VPOT short="Freq" long="LowFrequency" paramId="4">
+        <STEP value="0" short="20Hz " long="20Hz "/>
+        <STEP value="0.333333343" short="30Hz " long="30Hz "/>
+        <STEP value="0.666666687" short="60Hz " long="60Hz "/>
+        <STEP value="1" short="100Hz " long="100Hz "/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="HIGH:" long="HIGH:" paramId="-1"/>
+      <VPOT short="Freq" long="HiFrequency" paramId="7">
+        <STEP value="0" short="3KHz " long="3KHz "/>
+        <STEP value="0.166666672" short="4KHz " long="4KHz "/>
+        <STEP value="0.333333343" short="5KHz " long="5KHz "/>
+        <STEP value="0.5" short="8KHz " long="8KHz "/>
+        <STEP value="0.666666687" short="10KHz " long="10KHz "/>
+        <STEP value="0.833333373" short="12KHz " long="12KHz "/>
+        <STEP value="1" short="16KHz " long="16KHz "/>
+      </VPOT>
+      <VPOT short="ATTEN" long="AttenSelect" paramId="9">
+        <STEP value="0" short="5KHz " long="5KHz "/>
+        <STEP value="0.5" short="10KHz " long="10KHz "/>
+        <STEP value="1" short="20KHz " long="20KHz "/>
+      </VPOT>
+      <VPOT short="MAINS" long="MAINS" paramId="11">
+        <STEP value="0" short="Off " long="Off "/>
+        <STEP value="0.5" short="60Hz " long="60Hz "/>
+        <STEP value="1" short="50Hz " long="50Hz "/>
+      </VPOT>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

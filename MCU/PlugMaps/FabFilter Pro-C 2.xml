@@ -1,0 +1,1145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLUGMAP version="1">
+  <MAPINFO creator=""></MAPINFO>
+  <BANK id="0" short="MAIN" long="MAIN" referTo="-1" offset="0">
+    <PAGE id="0" short="Main" long="Main" referTo="-1" offset="0">
+      <FADER short="Thresh" long="Threshold" paramId="1"/>
+      <FADER short="Ratio" long="Ratio" paramId="2"/>
+      <FADER short="Attack" long="Attack" paramId="5"/>
+      <FADER short="Releas" long="Release" paramId="6"/>
+      <FADER paramId="-1"/>
+      <FADER short="Style" long="Style" paramId="0"/>
+      <FADER short="Gain" long="Dry Gain" paramId="12"/>
+      <FADER short="Gain" long="Wet Gain" paramId="10"/>
+      <VPOT short="Knee" long="Knee" paramId="3">
+        <STEP value="0" short="0.00 d" long="0.00 dB"/>
+        <STEP value="0.00206267368" short="+0.15 " long="+0.15 dB"/>
+        <STEP value="0.00492336135" short="+0.35 " long="+0.35 dB"/>
+        <STEP value="0.00597614888" short="+0.43 " long="+0.43 dB"/>
+        <STEP value="0.00704200659" short="+0.51 " long="+0.51 dB"/>
+        <STEP value="0.0106433621" short="+0.77 " long="+0.77 dB"/>
+        <STEP value="0.0156666953" short="+1.13 " long="+1.13 dB"/>
+        <STEP value="0.0167199261" short="+1.20 " long="+1.20 dB"/>
+        <STEP value="0.023733113" short="+1.71 " long="+1.71 dB"/>
+        <STEP value="0.0241543408" short="+1.74 " long="+1.74 dB"/>
+        <STEP value="0.0263430905" short="+1.90 " long="+1.90 dB"/>
+        <STEP value="0.0287114177" short="+2.07 " long="+2.07 dB"/>
+        <STEP value="0.0295553412" short="+2.13 " long="+2.13 dB"/>
+        <STEP value="0.0307807531" short="+2.22 " long="+2.22 dB"/>
+        <STEP value="0.032740891" short="+2.36 " long="+2.36 dB"/>
+        <STEP value="0.0357945375" short="+2.58 " long="+2.58 dB"/>
+        <STEP value="0.039822422" short="+2.87 " long="+2.87 dB"/>
+        <STEP value="0.0418884419" short="+3.02 " long="+3.02 dB"/>
+        <STEP value="0.0423559248" short="+3.05 " long="+3.05 dB"/>
+        <STEP value="0.0444858409" short="+3.20 " long="+3.20 dB"/>
+        <STEP value="0.0450146943" short="+3.24 " long="+3.24 dB"/>
+        <STEP value="0.045097243" short="+3.25 " long="+3.25 dB"/>
+        <STEP value="0.0480462052" short="+3.46 " long="+3.46 dB"/>
+        <STEP value="0.0491977036" short="+3.54 " long="+3.54 dB"/>
+        <STEP value="0.0501262359" short="+3.61 " long="+3.61 dB"/>
+        <STEP value="0.0506500043" short="+3.65 " long="+3.65 dB"/>
+        <STEP value="0.0534637198" short="+3.85 " long="+3.85 dB"/>
+        <STEP value="0.0561295003" short="+4.04 " long="+4.04 dB"/>
+        <STEP value="0.0641214997" short="+4.62 " long="+4.62 dB"/>
+        <STEP value="0.0659062937" short="+4.75 " long="+4.75 dB"/>
+        <STEP value="0.0693883449" short="+5.00 " long="+5.00 dB"/>
+        <STEP value="0.0696080327" short="+5.01 " long="+5.01 dB"/>
+        <STEP value="0.0736217797" short="+5.30 " long="+5.30 dB"/>
+        <STEP value="0.0775467753" short="+5.58 " long="+5.58 dB"/>
+        <STEP value="0.0788673609" short="+5.68 " long="+5.68 dB"/>
+        <STEP value="0.0792735368" short="+5.71 " long="+5.71 dB"/>
+        <STEP value="0.0843902379" short="+6.08 " long="+6.08 dB"/>
+        <STEP value="0.0871725604" short="+6.28 " long="+6.28 dB"/>
+        <STEP value="0.0872053653" short="+6.28 " long="+6.28 dB"/>
+        <STEP value="0.0917248577" short="+6.60 " long="+6.60 dB"/>
+        <STEP value="0.092145972" short="+6.63 " long="+6.63 dB"/>
+        <STEP value="0.100242592" short="+7.22 " long="+7.22 dB"/>
+        <STEP value="0.102240071" short="+7.36 " long="+7.36 dB"/>
+        <STEP value="0.104922011" short="+7.55 " long="+7.55 dB"/>
+        <STEP value="0.110187106" short="+7.93 " long="+7.93 dB"/>
+        <STEP value="0.114845671" short="+8.27 " long="+8.27 dB"/>
+        <STEP value="0.118412457" short="+8.53 " long="+8.53 dB"/>
+        <STEP value="0.118603721" short="+8.54 " long="+8.54 dB"/>
+        <STEP value="0.120563254" short="+8.68 " long="+8.68 dB"/>
+        <STEP value="0.124158353" short="+8.94 " long="+8.94 dB"/>
+        <STEP value="0.129720032" short="+9.34 " long="+9.34 dB"/>
+        <STEP value="0.135178775" short="+9.73 " long="+9.73 dB"/>
+        <STEP value="0.138094828" short="+9.94 " long="+9.94 dB"/>
+        <STEP value="0.14338845" short="+10.32" long="+10.32 dB"/>
+        <STEP value="0.151537195" short="+10.91" long="+10.91 dB"/>
+        <STEP value="0.155849487" short="+11.22" long="+11.22 dB"/>
+        <STEP value="0.159289688" short="+11.47" long="+11.47 dB"/>
+        <STEP value="0.168852493" short="+12.16" long="+12.16 dB"/>
+        <STEP value="0.172732607" short="+12.44" long="+12.44 dB"/>
+        <STEP value="0.177311167" short="+12.77" long="+12.77 dB"/>
+        <STEP value="0.180695847" short="+13.01" long="+13.01 dB"/>
+        <STEP value="0.183041349" short="+13.18" long="+13.18 dB"/>
+        <STEP value="0.186720014" short="+13.44" long="+13.44 dB"/>
+        <STEP value="0.198792115" short="+14.31" long="+14.31 dB"/>
+        <STEP value="0.203576416" short="+14.66" long="+14.66 dB"/>
+        <STEP value="0.208062679" short="+14.98" long="+14.98 dB"/>
+        <STEP value="0.210426092" short="+15.15" long="+15.15 dB"/>
+        <STEP value="0.217725933" short="+15.68" long="+15.68 dB"/>
+        <STEP value="0.220430255" short="+15.87" long="+15.87 dB"/>
+        <STEP value="0.22218129" short="+16.00" long="+16.00 dB"/>
+        <STEP value="0.225809753" short="+16.26" long="+16.26 dB"/>
+        <STEP value="0.227370054" short="+16.37" long="+16.37 dB"/>
+        <STEP value="0.228723079" short="+16.47" long="+16.47 dB"/>
+        <STEP value="0.230266675" short="+16.58" long="+16.58 dB"/>
+        <STEP value="0.231655046" short="+16.68" long="+16.68 dB"/>
+        <STEP value="0.233933419" short="+16.84" long="+16.84 dB"/>
+        <STEP value="0.236925572" short="+17.06" long="+17.06 dB"/>
+        <STEP value="0.237087831" short="+17.07" long="+17.07 dB"/>
+        <STEP value="0.238333806" short="+17.16" long="+17.16 dB"/>
+        <STEP value="0.241299286" short="+17.37" long="+17.37 dB"/>
+        <STEP value="0.244337976" short="+17.59" long="+17.59 dB"/>
+        <STEP value="0.245327607" short="+17.66" long="+17.66 dB"/>
+        <STEP value="0.246153802" short="+17.72" long="+17.72 dB"/>
+        <STEP value="0.24792102" short="+17.85" long="+17.85 dB"/>
+        <STEP value="0.248419181" short="+17.89" long="+17.89 dB"/>
+        <STEP value="0.249417007" short="+17.96" long="+17.96 dB"/>
+        <STEP value="0.25" short="+18.00" long="+18.00 dB"/>
+        <STEP value="0.254856706" short="+18.35" long="+18.35 dB"/>
+        <STEP value="0.265711635" short="+19.13" long="+19.13 dB"/>
+        <STEP value="0.270082325" short="+19.45" long="+19.45 dB"/>
+        <STEP value="0.281636566" short="+20.28" long="+20.28 dB"/>
+        <STEP value="0.338950366" short="+24.40" long="+24.40 dB"/>
+        <STEP value="0.33995378" short="+24.48" long="+24.48 dB"/>
+        <STEP value="0.341348022" short="+24.58" long="+24.58 dB"/>
+        <STEP value="0.347051889" short="+24.99" long="+24.99 dB"/>
+        <STEP value="0.349675119" short="+25.18" long="+25.18 dB"/>
+        <STEP value="0.350628465" short="+25.25" long="+25.25 dB"/>
+        <STEP value="0.355348468" short="+25.59" long="+25.59 dB"/>
+        <STEP value="0.360933959" short="+25.99" long="+25.99 dB"/>
+        <STEP value="0.365655363" short="+26.33" long="+26.33 dB"/>
+        <STEP value="0.377234817" short="+27.16" long="+27.16 dB"/>
+        <STEP value="0.37907967" short="+27.29" long="+27.29 dB"/>
+        <STEP value="0.397775501" short="+28.64" long="+28.64 dB"/>
+        <STEP value="0.410702944" short="+29.57" long="+29.57 dB"/>
+        <STEP value="0.411771744" short="+29.65" long="+29.65 dB"/>
+        <STEP value="0.424922943" short="+30.59" long="+30.59 dB"/>
+        <STEP value="0.425176442" short="+30.61" long="+30.61 dB"/>
+        <STEP value="0.439384848" short="+31.64" long="+31.64 dB"/>
+        <STEP value="0.443297058" short="+31.92" long="+31.92 dB"/>
+        <STEP value="0.445593357" short="+32.08" long="+32.08 dB"/>
+        <STEP value="0.449532986" short="+32.37" long="+32.37 dB"/>
+        <STEP value="0.464139342" short="+33.42" long="+33.42 dB"/>
+        <STEP value="0.464404434" short="+33.44" long="+33.44 dB"/>
+        <STEP value="0.478787094" short="+34.47" long="+34.47 dB"/>
+        <STEP value="0.482754767" short="+34.76" long="+34.76 dB"/>
+        <STEP value="0.485267043" short="+34.94" long="+34.94 dB"/>
+        <STEP value="0.487397939" short="+35.09" long="+35.09 dB"/>
+        <STEP value="0.494794965" short="+35.63" long="+35.63 dB"/>
+        <STEP value="0.498161465" short="+35.87" long="+35.87 dB"/>
+        <STEP value="0.501736104" short="+36.13" long="+36.13 dB"/>
+        <STEP value="0.509042621" short="+36.65" long="+36.65 dB"/>
+        <STEP value="0.513810217" short="+36.99" long="+36.99 dB"/>
+        <STEP value="0.524296641" short="+37.75" long="+37.75 dB"/>
+        <STEP value="0.529700935" short="+38.14" long="+38.14 dB"/>
+        <STEP value="0.536312163" short="+38.61" long="+38.61 dB"/>
+        <STEP value="0.541246355" short="+38.97" long="+38.97 dB"/>
+        <STEP value="0.556433082" short="+40.06" long="+40.06 dB"/>
+        <STEP value="0.556640327" short="+40.08" long="+40.08 dB"/>
+        <STEP value="0.567552984" short="+40.86" long="+40.86 dB"/>
+        <STEP value="0.581533313" short="+41.87" long="+41.87 dB"/>
+        <STEP value="0.588459492" short="+42.37" long="+42.37 dB"/>
+        <STEP value="0.600151479" short="+43.21" long="+43.21 dB"/>
+        <STEP value="0.613002002" short="+44.14" long="+44.14 dB"/>
+        <STEP value="0.634722054" short="+45.70" long="+45.70 dB"/>
+        <STEP value="0.646460712" short="+46.55" long="+46.55 dB"/>
+        <STEP value="0.650979996" short="+46.87" long="+46.87 dB"/>
+        <STEP value="0.668851316" short="+48.16" long="+48.16 dB"/>
+        <STEP value="0.673265874" short="+48.48" long="+48.48 dB"/>
+        <STEP value="0.685721993" short="+49.37" long="+49.37 dB"/>
+        <STEP value="0.689407349" short="+49.64" long="+49.64 dB"/>
+        <STEP value="0.709946692" short="+51.12" long="+51.12 dB"/>
+        <STEP value="0.712429762" short="+51.29" long="+51.29 dB"/>
+        <STEP value="0.721744657" short="+51.97" long="+51.97 dB"/>
+        <STEP value="0.734401405" short="+52.88" long="+52.88 dB"/>
+        <STEP value="0.742948234" short="+53.49" long="+53.49 dB"/>
+        <STEP value="0.762032032" short="+54.87" long="+54.87 dB"/>
+        <STEP value="0.773666859" short="+55.70" long="+55.70 dB"/>
+        <STEP value="0.781357765" short="+56.26" long="+56.26 dB"/>
+        <STEP value="0.798044384" short="+57.46" long="+57.46 dB"/>
+        <STEP value="0.800925553" short="+57.67" long="+57.67 dB"/>
+        <STEP value="0.820735395" short="+59.09" long="+59.09 dB"/>
+        <STEP value="0.837835133" short="+60.32" long="+60.32 dB"/>
+        <STEP value="0.845837831" short="+60.90" long="+60.90 dB"/>
+        <STEP value="0.863195837" short="+62.15" long="+62.15 dB"/>
+        <STEP value="0.866192162" short="+62.37" long="+62.37 dB"/>
+        <STEP value="0.902394414" short="+64.97" long="+64.97 dB"/>
+        <STEP value="0.934014857" short="+67.25" long="+67.25 dB"/>
+        <STEP value="0.955397725" short="+68.79" long="+68.79 dB"/>
+        <STEP value="0.992126703" short="+71.43" long="+71.43 dB"/>
+        <STEP value="1" short="+72.00" long="+72.00 dB"/>
+      </VPOT>
+      <VPOT short="Range" long="Range" paramId="4">
+        <STEP value="0" short="0.00 d" long="0.00 dB"/>
+        <STEP value="0.0057407408" short="+0.34 " long="+0.34 dB"/>
+        <STEP value="0.0106666675" short="+0.64 " long="+0.64 dB"/>
+        <STEP value="0.0139907403" short="+0.84 " long="+0.84 dB"/>
+        <STEP value="0.0207499992" short="+1.25 " long="+1.25 dB"/>
+        <STEP value="0.0222407412" short="+1.33 " long="+1.33 dB"/>
+        <STEP value="0.0262499992" short="+1.57 " long="+1.57 dB"/>
+        <STEP value="0.0344999991" short="+2.07 " long="+2.07 dB"/>
+        <STEP value="0.0389907397" short="+2.34 " long="+2.34 dB"/>
+        <STEP value="0.0409166627" short="+2.45 " long="+2.45 dB"/>
+        <STEP value="0.0426296256" short="+2.56 " long="+2.56 dB"/>
+        <STEP value="0.0461666696" short="+2.77 " long="+2.77 dB"/>
+        <STEP value="0.0505740717" short="+3.03 " long="+3.03 dB"/>
+        <STEP value="0.0547129586" short="+3.28 " long="+3.28 dB"/>
+        <STEP value="0.0581481457" short="+3.49 " long="+3.49 dB"/>
+        <STEP value="0.0594814792" short="+3.57 " long="+3.57 dB"/>
+        <STEP value="0.0616851822" short="+3.70 " long="+3.70 dB"/>
+        <STEP value="0.063990742" short="+3.84 " long="+3.84 dB"/>
+        <STEP value="0.0643055514" short="+3.86 " long="+3.86 dB"/>
+        <STEP value="0.0661388859" short="+3.97 " long="+3.97 dB"/>
+        <STEP value="0.0691944435" short="+4.15 " long="+4.15 dB"/>
+        <STEP value="0.0710277781" short="+4.26 " long="+4.26 dB"/>
+        <STEP value="0.0718240738" short="+4.31 " long="+4.31 dB"/>
+        <STEP value="0.0731574073" short="+4.39 " long="+4.39 dB"/>
+        <STEP value="0.0742314756" short="+4.45 " long="+4.45 dB"/>
+        <STEP value="0.0746388882" short="+4.48 " long="+4.48 dB"/>
+        <STEP value="0.0771388933" short="+4.63 " long="+4.63 dB"/>
+        <STEP value="0.0787222236" short="+4.72 " long="+4.72 dB"/>
+        <STEP value="0.0821759254" short="+4.93 " long="+4.93 dB"/>
+        <STEP value="0.0825555548" short="+4.95 " long="+4.95 dB"/>
+        <STEP value="0.0894351825" short="+5.37 " long="+5.37 dB"/>
+        <STEP value="0.0912407413" short="+5.47 " long="+5.47 dB"/>
+        <STEP value="0.106589489" short="+6.40 " long="+6.40 dB"/>
+        <STEP value="0.123700619" short="+7.42 " long="+7.42 dB"/>
+        <STEP value="0.125320986" short="+7.52 " long="+7.52 dB"/>
+        <STEP value="0.13225615" short="+7.94 " long="+7.94 dB"/>
+        <STEP value="0.148848742" short="+8.93 " long="+8.93 dB"/>
+        <STEP value="0.156756163" short="+9.41 " long="+9.41 dB"/>
+        <STEP value="0.161682084" short="+9.70 " long="+9.70 dB"/>
+        <STEP value="0.163324088" short="+9.80 " long="+9.80 dB"/>
+        <STEP value="0.171728402" short="+10.30" long="+10.30 dB"/>
+        <STEP value="0.180024683" short="+10.80" long="+10.80 dB"/>
+        <STEP value="0.186398163" short="+11.18" long="+11.18 dB"/>
+        <STEP value="0.197135791" short="+11.83" long="+11.83 dB"/>
+        <STEP value="0.203509241" short="+12.21" long="+12.21 dB"/>
+        <STEP value="0.212108001" short="+12.73" long="+12.73 dB"/>
+        <STEP value="0.216342583" short="+12.98" long="+12.98 dB"/>
+        <STEP value="0.222759247" short="+13.37" long="+13.37 dB"/>
+        <STEP value="0.227080256" short="+13.62" long="+13.62 dB"/>
+        <STEP value="0.233453721" short="+14.01" long="+14.01 dB"/>
+        <STEP value="0.237623453" short="+14.26" long="+14.26 dB"/>
+        <STEP value="0.238833338" short="+14.33" long="+14.33 dB"/>
+        <STEP value="0.251666665" short="+15.10" long="+15.10 dB"/>
+        <STEP value="0.260222197" short="+15.61" long="+15.61 dB"/>
+        <STEP value="0.273055553" short="+16.38" long="+16.38 dB"/>
+        <STEP value="0.274567902" short="+16.47" long="+16.47 dB"/>
+        <STEP value="0.279472202" short="+16.77" long="+16.77 dB"/>
+        <STEP value="0.283123434" short="+16.99" long="+16.99 dB"/>
+        <STEP value="0.294444442" short="+17.67" long="+17.67 dB"/>
+        <STEP value="0.300234586" short="+18.01" long="+18.01 dB"/>
+        <STEP value="0.305873483" short="+18.35" long="+18.35 dB"/>
+        <STEP value="0.311555564" short="+18.69" long="+18.69 dB"/>
+        <STEP value="0.321515411" short="+19.29" long="+19.29 dB"/>
+        <STEP value="0.328666657" short="+19.72" long="+19.72 dB"/>
+        <STEP value="0.332037061" short="+19.92" long="+19.92 dB"/>
+        <STEP value="0.339120358" short="+20.35" long="+20.35 dB"/>
+        <STEP value="0.347546279" short="+20.85" long="+20.85 dB"/>
+        <STEP value="0.369166672" short="+22.15" long="+22.15 dB"/>
+        <STEP value="0.384953648" short="+23.10" long="+23.10 dB"/>
+        <STEP value="0.396666646" short="+23.80" long="+23.80 dB"/>
+        <STEP value="0.414999962" short="+24.90" long="+24.90 dB"/>
+        <STEP value="0.437453717" short="+26.25" long="+26.25 dB"/>
+        <STEP value="0.442499936" short="+26.55" long="+26.55 dB"/>
+        <STEP value="0.460370332" short="+27.62" long="+27.62 dB"/>
+        <STEP value="0.460833341" short="+27.65" long="+27.65 dB"/>
+        <STEP value="0.492916644" short="+29.57" long="+29.57 dB"/>
+        <STEP value="0.526620388" short="+31.60" long="+31.60 dB"/>
+        <STEP value="0.543333292" short="+32.60" long="+32.60 dB"/>
+        <STEP value="0.544953704" short="+32.70" long="+32.70 dB"/>
+        <STEP value="0.575416625" short="+34.52" long="+34.52 dB"/>
+        <STEP value="0.578935087" short="+34.74" long="+34.74 dB"/>
+        <STEP value="0.591018558" short="+35.46" long="+35.46 dB"/>
+        <STEP value="0.59375" short="+35.63" long="+35.63 dB"/>
+        <STEP value="0.629768491" short="+37.79" long="+37.79 dB"/>
+        <STEP value="0.63657403" short="+38.19" long="+38.19 dB"/>
+        <STEP value="0.650324047" short="+39.02" long="+39.02 dB"/>
+        <STEP value="0.666435182" short="+39.99" long="+39.99 dB"/>
+        <STEP value="0.694490671" short="+41.67" long="+41.67 dB"/>
+        <STEP value="0.726574063" short="+43.59" long="+43.59 dB"/>
+        <STEP value="0.748379588" short="+44.90" long="+44.90 dB"/>
+        <STEP value="0.756851852" short="+45.41" long="+45.41 dB"/>
+        <STEP value="0.774490654" short="+46.47" long="+46.47 dB"/>
+        <STEP value="0.79282403" short="+47.57" long="+47.57 dB"/>
+        <STEP value="0.808518469" short="+48.51" long="+48.51 dB"/>
+        <STEP value="0.811157346" short="+48.67" long="+48.67 dB"/>
+        <STEP value="0.817361116" short="+49.04" long="+49.04 dB"/>
+        <STEP value="0.847453713" short="+50.85" long="+50.85 dB"/>
+        <STEP value="0.854722142" short="+51.28" long="+51.28 dB"/>
+        <STEP value="0.867361069" short="+52.04" long="+52.04 dB"/>
+        <STEP value="0.881111026" short="+52.87" long="+52.87 dB"/>
+        <STEP value="0.887870252" short="+53.27" long="+53.27 dB"/>
+        <STEP value="0.892453611" short="+53.55" long="+53.55 dB"/>
+        <STEP value="0.899768472" short="+53.99" long="+53.99 dB"/>
+        <STEP value="0.911296248" short="+54.68" long="+54.68 dB"/>
+        <STEP value="0.914120317" short="+54.85" long="+54.85 dB"/>
+        <STEP value="0.922222137" short="+55.33" long="+55.33 dB"/>
+        <STEP value="0.922361016" short="+55.34" long="+55.34 dB"/>
+        <STEP value="0.924398065" short="+55.46" long="+55.46 dB"/>
+        <STEP value="0.930277705" short="+55.82" long="+55.82 dB"/>
+        <STEP value="0.932962954" short="+55.98" long="+55.98 dB"/>
+        <STEP value="0.946712852" short="+56.80" long="+56.80 dB"/>
+        <STEP value="0.974212885" short="+58.45" long="+58.45 dB"/>
+        <STEP value="0.980277777" short="+58.82" long="+58.82 dB"/>
+        <STEP value="1" short="+60.00" long="+60.00 dB"/>
+      </VPOT>
+      <VPOT short="Look+" long="Lookahead" paramId="8">
+        <STEP value="0" short="0.00 m" long="0.00 ms"/>
+        <STEP value="0.000694444461" short="0.01 m" long="0.01 ms"/>
+        <STEP value="0.00110416661" short="0.02 m" long="0.02 ms"/>
+        <STEP value="0.0021736112" short="0.04 m" long="0.04 ms"/>
+        <STEP value="0.00267361104" short="0.05 m" long="0.05 ms"/>
+        <STEP value="0.00336111104" short="0.07 m" long="0.07 ms"/>
+        <STEP value="0.00377083337" short="0.08 m" long="0.08 ms"/>
+        <STEP value="0.00495833345" short="0.10 m" long="0.10 ms"/>
+        <STEP value="0.0053611109" short="0.11 m" long="0.11 ms"/>
+        <STEP value="0.00595833315" short="0.12 m" long="0.12 ms"/>
+        <STEP value="0.00665972242" short="0.13 m" long="0.13 ms"/>
+        <STEP value="0.00691666687" short="0.14 m" long="0.14 ms"/>
+        <STEP value="0.00765277725" short="0.15 m" long="0.15 ms"/>
+        <STEP value="0.00790277775" short="0.16 m" long="0.16 ms"/>
+        <STEP value="0.0081597222" short="0.16 m" long="0.16 ms"/>
+        <STEP value="0.00817361102" short="0.16 m" long="0.16 ms"/>
+        <STEP value="0.00892361067" short="0.18 m" long="0.18 ms"/>
+        <STEP value="0.009333333" short="0.19 m" long="0.19 ms"/>
+        <STEP value="0.00993749965" short="0.20 m" long="0.20 ms"/>
+        <STEP value="0.0116388891" short="0.23 m" long="0.23 ms"/>
+        <STEP value="0.0121111115" short="0.24 m" long="0.24 ms"/>
+        <STEP value="0.0136180548" short="0.27 m" long="0.27 ms"/>
+        <STEP value="0.013673611" short="0.27 m" long="0.27 ms"/>
+        <STEP value="0.0143055543" short="0.29 m" long="0.29 ms"/>
+        <STEP value="0.0173472222" short="0.35 m" long="0.35 ms"/>
+        <STEP value="0.019173611" short="0.38 m" long="0.38 ms"/>
+        <STEP value="0.0200416669" short="0.40 m" long="0.40 ms"/>
+        <STEP value="0.0225902777" short="0.45 m" long="0.45 ms"/>
+        <STEP value="0.0244652778" short="0.49 m" long="0.49 ms"/>
+        <STEP value="0.0263611116" short="0.53 m" long="0.53 ms"/>
+        <STEP value="0.0271736085" short="0.54 m" long="0.54 ms"/>
+        <STEP value="0.0275277756" short="0.55 m" long="0.55 ms"/>
+        <STEP value="0.0295902751" short="0.59 m" long="0.59 ms"/>
+        <STEP value="0.032340277" short="0.65 m" long="0.65 ms"/>
+        <STEP value="0.0335486121" short="0.67 m" long="0.67 ms"/>
+        <STEP value="0.0350000001" short="0.70 m" long="0.70 ms"/>
+        <STEP value="0.0384375006" short="0.77 m" long="0.77 ms"/>
+        <STEP value="0.0405000001" short="0.81 m" long="0.81 ms"/>
+        <STEP value="0.0432499982" short="0.86 m" long="0.86 ms"/>
+        <STEP value="0.0452361107" short="0.90 m" long="0.90 ms"/>
+        <STEP value="0.0461111106" short="0.92 m" long="0.92 ms"/>
+        <STEP value="0.0479375012" short="0.96 m" long="0.96 ms"/>
+        <STEP value="0.0538749993" short="1.08 m" long="1.08 ms"/>
+        <STEP value="0.0558402762" short="1.12 m" long="1.12 ms"/>
+        <STEP value="0.0575763881" short="1.15 m" long="1.15 ms"/>
+        <STEP value="0.0595624968" short="1.19 m" long="1.19 ms"/>
+        <STEP value="0.062312495" short="1.25 m" long="1.25 ms"/>
+        <STEP value="0.0641111135" short="1.28 m" long="1.28 ms"/>
+        <STEP value="0.0643263906" short="1.29 m" long="1.29 ms"/>
+        <STEP value="0.0656527802" short="1.31 m" long="1.31 ms"/>
+        <STEP value="0.0689583346" short="1.38 m" long="1.38 ms"/>
+        <STEP value="0.0715763867" short="1.43 m" long="1.43 ms"/>
+        <STEP value="0.0750138909" short="1.50 m" long="1.50 ms"/>
+        <STEP value="0.0757361129" short="1.51 m" long="1.51 ms"/>
+        <STEP value="0.0759652779" short="1.52 m" long="1.52 ms"/>
+        <STEP value="0.0769305527" short="1.54 m" long="1.54 ms"/>
+        <STEP value="0.0782152787" short="1.56 m" long="1.56 ms"/>
+        <STEP value="0.0816527754" short="1.63 m" long="1.63 ms"/>
+        <STEP value="0.0823402777" short="1.65 m" long="1.65 ms"/>
+        <STEP value="0.0862361118" short="1.72 m" long="1.72 ms"/>
+        <STEP value="0.0912500024" short="1.83 m" long="1.83 ms"/>
+        <STEP value="0.0924236029" short="1.85 m" long="1.85 ms"/>
+        <STEP value="0.0933125019" short="1.87 m" long="1.87 ms"/>
+        <STEP value="0.0980347246" short="1.96 m" long="1.96 ms"/>
+        <STEP value="0.098611109" short="1.97 m" long="1.97 ms"/>
+        <STEP value="0.0999374986" short="2.00 m" long="2.00 ms"/>
+        <STEP value="0.101618066" short="2.03 m" long="2.03 ms"/>
+        <STEP value="0.102583334" short="2.05 m" long="2.05 ms"/>
+        <STEP value="0.10342361" short="2.07 m" long="2.07 ms"/>
+        <STEP value="0.104298614" short="2.09 m" long="2.09 ms"/>
+        <STEP value="0.105673611" short="2.11 m" long="2.11 ms"/>
+        <STEP value="0.106020831" short="2.12 m" long="2.12 ms"/>
+        <STEP value="0.107062504" short="2.14 m" long="2.14 ms"/>
+        <STEP value="0.109125003" short="2.18 m" long="2.18 ms"/>
+        <STEP value="0.11186111" short="2.24 m" long="2.24 ms"/>
+        <STEP value="0.112472221" short="2.25 m" long="2.25 ms"/>
+        <STEP value="0.115909718" short="2.32 m" long="2.32 ms"/>
+        <STEP value="0.115986109" short="2.32 m" long="2.32 ms"/>
+        <STEP value="0.117361113" short="2.35 m" long="2.35 ms"/>
+        <STEP value="0.120020844" short="2.40 m" long="2.40 ms"/>
+        <STEP value="0.120034717" short="2.40 m" long="2.40 ms"/>
+        <STEP value="0.122083329" short="2.44 m" long="2.44 ms"/>
+        <STEP value="0.124750003" short="2.50 m" long="2.50 ms"/>
+        <STEP value="0.127118051" short="2.54 m" long="2.54 ms"/>
+        <STEP value="0.134062514" short="2.68 m" long="2.68 ms"/>
+        <STEP value="0.158055544" short="3.16 m" long="3.16 ms"/>
+        <STEP value="0.169895858" short="3.40 m" long="3.40 ms"/>
+        <STEP value="0.182118088" short="3.64 m" long="3.64 ms"/>
+        <STEP value="0.190520853" short="3.81 m" long="3.81 ms"/>
+        <STEP value="0.214583308" short="4.29 m" long="4.29 ms"/>
+        <STEP value="0.226666659" short="4.53 m" long="4.53 ms"/>
+        <STEP value="0.230729148" short="4.61 m" long="4.61 ms"/>
+        <STEP value="0.240416646" short="4.81 m" long="4.81 ms"/>
+        <STEP value="0.254791647" short="5.10 m" long="5.10 ms"/>
+        <STEP value="0.257604182" short="5.15 m" long="5.15 ms"/>
+        <STEP value="0.267430604" short="5.35 m" long="5.35 ms"/>
+        <STEP value="0.282291651" short="5.65 m" long="5.65 ms"/>
+        <STEP value="0.28461802" short="5.69 m" long="5.69 ms"/>
+        <STEP value="0.294583321" short="5.89 m" long="5.89 ms"/>
+        <STEP value="0.307847232" short="6.16 m" long="6.16 ms"/>
+        <STEP value="0.309791684" short="6.20 m" long="6.20 ms"/>
+        <STEP value="0.321145833" short="6.42 m" long="6.42 ms"/>
+        <STEP value="0.323541641" short="6.47 m" long="6.47 ms"/>
+        <STEP value="0.338333368" short="6.77 m" long="6.77 ms"/>
+        <STEP value="0.347326368" short="6.95 m" long="6.95 ms"/>
+        <STEP value="0.362395823" short="7.25 m" long="7.25 ms"/>
+        <STEP value="0.367951363" short="7.36 m" long="7.36 ms"/>
+        <STEP value="0.381249964" short="7.62 m" long="7.62 ms"/>
+        <STEP value="0.385729194" short="7.71 m" long="7.71 ms"/>
+        <STEP value="0.392604113" short="7.85 m" long="7.85 ms"/>
+        <STEP value="0.3984375" short="7.97 m" long="7.97 ms"/>
+        <STEP value="0.399930507" short="8.00 m" long="8.00 ms"/>
+        <STEP value="0.401874959" short="8.04 m" long="8.04 ms"/>
+        <STEP value="0.406805515" short="8.14 m" long="8.14 ms"/>
+        <STEP value="0.420555592" short="8.41 m" long="8.41 ms"/>
+        <STEP value="0.422499955" short="8.45 m" long="8.45 ms"/>
+        <STEP value="0.437291682" short="8.75 m" long="8.75 ms"/>
+        <STEP value="0.44312495" short="8.86 m" long="8.86 ms"/>
+        <STEP value="0.447604179" short="8.95 m" long="8.95 ms"/>
+        <STEP value="0.456388861" short="9.13 m" long="9.13 ms"/>
+        <STEP value="0.464791685" short="9.30 m" long="9.30 ms"/>
+        <STEP value="0.466250002" short="9.32 m" long="9.32 ms"/>
+        <STEP value="0.478055537" short="9.56 m" long="9.56 ms"/>
+        <STEP value="0.482951343" short="9.66 m" long="9.66 ms"/>
+        <STEP value="0.496249974" short="9.92 m" long="9.92 ms"/>
+        <STEP value="0.498680592" short="9.97 m" long="9.97 ms"/>
+        <STEP value="0.510972202" short="10.22 " long="10.22 ms"/>
+        <STEP value="0.545486093" short="10.91 " long="10.91 ms"/>
+        <STEP value="0.551527798" short="11.03 " long="11.03 ms"/>
+        <STEP value="0.579861164" short="11.60 " long="11.60 ms"/>
+        <STEP value="0.585347176" short="11.71 " long="11.71 ms"/>
+        <STEP value="0.593611062" short="11.87 " long="11.87 ms"/>
+        <STEP value="0.617847204" short="12.36 " long="12.36 ms"/>
+        <STEP value="0.621111155" short="12.42 " long="12.42 ms"/>
+        <STEP value="0.624722123" short="12.49 " long="12.49 ms"/>
+        <STEP value="0.635416687" short="12.71 " long="12.71 ms"/>
+        <STEP value="0.64173615" short="12.83 " long="12.83 ms"/>
+        <STEP value="0.675763845" short="13.52 " long="13.52 ms"/>
+        <STEP value="0.68298614" short="13.66 " long="13.66 ms"/>
+        <STEP value="0.69312501" short="13.86 " long="13.86 ms"/>
+        <STEP value="0.703611135" short="14.07 " long="14.07 ms"/>
+        <STEP value="0.743055522" short="14.86 " long="14.86 ms"/>
+        <STEP value="0.744861126" short="14.90 " long="14.90 ms"/>
+        <STEP value="0.753472209" short="15.07 " long="15.07 ms"/>
+        <STEP value="0.759027839" short="15.18 " long="15.18 ms"/>
+        <STEP value="0.775347233" short="15.51 " long="15.51 ms"/>
+        <STEP value="0.779236197" short="15.58 " long="15.58 ms"/>
+        <STEP value="0.779583335" short="15.59 " long="15.59 ms"/>
+        <STEP value="0.789027691" short="15.78 " long="15.78 ms"/>
+        <STEP value="0.794999957" short="15.90 " long="15.90 ms"/>
+        <STEP value="0.802638888" short="16.05 " long="16.05 ms"/>
+        <STEP value="0.815277755" short="16.31 " long="16.31 ms"/>
+        <STEP value="0.820486188" short="16.41 " long="16.41 ms"/>
+        <STEP value="0.825833321" short="16.52 " long="16.52 ms"/>
+        <STEP value="0.828888893" short="16.58 " long="16.58 ms"/>
+        <STEP value="0.838750064" short="16.78 " long="16.78 ms"/>
+        <STEP value="0.849027812" short="16.98 " long="16.98 ms"/>
+        <STEP value="0.858888805" short="17.18 " long="17.18 ms"/>
+        <STEP value="0.864444435" short="17.29 " long="17.29 ms"/>
+        <STEP value="0.880694509" short="17.61 " long="17.61 ms"/>
+        <STEP value="0.886805534" short="17.74 " long="17.74 ms"/>
+        <STEP value="0.894375026" short="17.89 " long="17.89 ms"/>
+        <STEP value="0.897986054" short="17.96 " long="17.96 ms"/>
+        <STEP value="0.898541629" short="17.97 " long="17.97 ms"/>
+        <STEP value="0.902083278" short="18.04 " long="18.04 ms"/>
+        <STEP value="0.907708287" short="18.15 " long="18.15 ms"/>
+        <STEP value="0.914513767" short="18.29 " long="18.29 ms"/>
+        <STEP value="0.921388924" short="18.43 " long="18.43 ms"/>
+        <STEP value="0.93090266" short="18.62 " long="18.62 ms"/>
+        <STEP value="0.939652801" short="18.79 " long="18.79 ms"/>
+        <STEP value="0.954652786" short="19.09 " long="19.09 ms"/>
+        <STEP value="0.960277736" short="19.21 " long="19.21 ms"/>
+        <STEP value="0.968402863" short="19.37 " long="19.37 ms"/>
+        <STEP value="0.980069339" short="19.60 " long="19.60 ms"/>
+        <STEP value="0.990486026" short="19.81 " long="19.81 ms"/>
+        <STEP value="0.994652748" short="19.89 " long="19.89 ms"/>
+        <STEP value="1" short="20.00 " long="20.00 ms"/>
+      </VPOT>
+      <VPOT short="Hold" long="Hold" paramId="9">
+        <STEP value="0" short="0.00 m" long="0.00 ms"/>
+        <STEP value="0.00919444486" short="0.23 m" long="0.23 ms"/>
+        <STEP value="0.0114166662" short="0.29 m" long="0.29 ms"/>
+        <STEP value="0.0131111108" short="0.33 m" long="0.33 ms"/>
+        <STEP value="0.0196666662" short="0.49 m" long="0.49 ms"/>
+        <STEP value="0.0222500004" short="0.56 m" long="0.56 ms"/>
+        <STEP value="0.0233333334" short="0.58 m" long="0.58 ms"/>
+        <STEP value="0.0274722222" short="0.69 m" long="0.69 ms"/>
+        <STEP value="0.0325277783" short="0.81 m" long="0.81 ms"/>
+        <STEP value="0.0335277766" short="0.84 m" long="0.84 ms"/>
+        <STEP value="0.0401944444" short="1.00 m" long="1.00 ms"/>
+        <STEP value="0.0507499985" short="1.27 m" long="1.27 ms"/>
+        <STEP value="0.0556666665" short="1.39 m" long="1.39 ms"/>
+        <STEP value="0.0616111122" short="1.54 m" long="1.54 ms"/>
+        <STEP value="0.063500002" short="1.59 m" long="1.59 ms"/>
+        <STEP value="0.0697500035" short="1.74 m" long="1.74 ms"/>
+        <STEP value="0.0726388916" short="1.82 m" long="1.82 ms"/>
+        <STEP value="0.0767777786" short="1.92 m" long="1.92 ms"/>
+        <STEP value="0.0847499967" short="2.12 m" long="2.12 ms"/>
+        <STEP value="0.0910277814" short="2.28 m" long="2.28 ms"/>
+        <STEP value="0.0984999985" short="2.46 m" long="2.46 ms"/>
+        <STEP value="0.11225" short="2.81 m" long="2.81 ms"/>
+        <STEP value="0.120750003" short="3.02 m" long="3.02 ms"/>
+        <STEP value="0.126000002" short="3.15 m" long="3.15 ms"/>
+        <STEP value="0.136999995" short="3.42 m" long="3.42 ms"/>
+        <STEP value="0.141666666" short="3.54 m" long="3.54 ms"/>
+        <STEP value="0.147305548" short="3.68 m" long="3.68 ms"/>
+        <STEP value="0.152805552" short="3.82 m" long="3.82 ms"/>
+        <STEP value="0.162944451" short="4.07 m" long="4.07 ms"/>
+        <STEP value="0.176694438" short="4.42 m" long="4.42 ms"/>
+        <STEP value="0.182194442" short="4.55 m" long="4.55 ms"/>
+        <STEP value="0.192416668" short="4.81 m" long="4.81 ms"/>
+        <STEP value="0.197249994" short="4.93 m" long="4.93 ms"/>
+        <STEP value="0.20341666" short="5.17 m" long="5.17 ms"/>
+        <STEP value="0.208277777" short="5.41 m" long="5.41 ms"/>
+        <STEP value="0.213027775" short="5.65 m" long="5.65 ms"/>
+        <STEP value="0.216472223" short="5.82 m" long="5.82 ms"/>
+        <STEP value="0.221222222" short="6.06 m" long="6.06 ms"/>
+        <STEP value="0.224749997" short="6.24 m" long="6.24 ms"/>
+        <STEP value="0.231833339" short="6.59 m" long="6.59 ms"/>
+        <STEP value="0.234222218" short="6.71 m" long="6.71 ms"/>
+        <STEP value="0.244833335" short="7.24 m" long="7.24 ms"/>
+        <STEP value="0.247027785" short="7.35 m" long="7.35 ms"/>
+        <STEP value="0.253083318" short="7.65 m" long="7.65 ms"/>
+        <STEP value="0.262250006" short="8.11 m" long="8.11 ms"/>
+        <STEP value="0.276833326" short="8.84 m" long="8.84 ms"/>
+        <STEP value="0.278666675" short="8.93 m" long="8.93 ms"/>
+        <STEP value="0.279722214" short="8.99 m" long="8.99 ms"/>
+        <STEP value="0.280916661" short="9.05 m" long="9.05 ms"/>
+        <STEP value="0.281722218" short="9.09 m" long="9.09 ms"/>
+        <STEP value="0.28275001" short="9.14 m" long="9.14 ms"/>
+        <STEP value="0.284527779" short="9.23 m" long="9.23 ms"/>
+        <STEP value="0.289249986" short="9.46 m" long="9.46 ms"/>
+        <STEP value="0.294250011" short="9.71 m" long="9.71 ms"/>
+        <STEP value="0.302638888" short="10.40 " long="10.40 ms"/>
+        <STEP value="0.310750008" short="11.61 " long="11.61 ms"/>
+        <STEP value="0.316000015" short="12.40 " long="12.40 ms"/>
+        <STEP value="0.324250013" short="13.64 " long="13.64 ms"/>
+        <STEP value="0.324777782" short="13.72 " long="13.72 ms"/>
+        <STEP value="0.335500002" short="15.32 " long="15.32 ms"/>
+        <STEP value="0.346249998" short="16.94 " long="16.94 ms"/>
+        <STEP value="0.355666667" short="18.35 " long="18.35 ms"/>
+        <STEP value="0.362277776" short="19.34 " long="19.34 ms"/>
+        <STEP value="0.368250012" short="20.24 " long="20.24 ms"/>
+        <STEP value="0.370249987" short="20.54 " long="20.54 ms"/>
+        <STEP value="0.37650001" short="21.48 " long="21.48 ms"/>
+        <STEP value="0.389888883" short="23.48 " long="23.48 ms"/>
+        <STEP value="0.397027791" short="24.55 " long="24.55 ms"/>
+        <STEP value="0.403638899" short="25.55 " long="25.55 ms"/>
+        <STEP value="0.416555554" short="27.48 " long="27.48 ms"/>
+        <STEP value="0.417750001" short="27.66 " long="27.66 ms"/>
+        <STEP value="0.423527777" short="28.53 " long="28.53 ms"/>
+        <STEP value="0.43030557" short="29.55 " long="29.55 ms"/>
+        <STEP value="0.43599999" short="30.40 " long="30.40 ms"/>
+        <STEP value="0.449555546" short="32.43 " long="32.43 ms"/>
+        <STEP value="0.457166672" short="33.57 " long="33.57 ms"/>
+        <STEP value="0.466055542" short="34.91 " long="34.91 ms"/>
+        <STEP value="0.485305548" short="37.80 " long="37.80 ms"/>
+        <STEP value="0.486527771" short="37.98 " long="37.98 ms"/>
+        <STEP value="0.490805566" short="38.62 " long="38.62 ms"/>
+        <STEP value="0.510055542" short="44.02 " long="44.02 ms"/>
+        <STEP value="0.526555538" short="50.62 " long="50.62 ms"/>
+        <STEP value="0.535250008" short="54.10 " long="54.10 ms"/>
+        <STEP value="0.540305555" short="56.12 " long="56.12 ms"/>
+        <STEP value="0.574027777" short="69.61 " long="69.61 ms"/>
+        <STEP value="0.584555566" short="73.82 " long="73.82 ms"/>
+        <STEP value="0.608305573" short="84.98 " long="84.98 ms"/>
+        <STEP value="0.622749984" short="93.65 " long="93.65 ms"/>
+        <STEP value="0.627555549" short="96.53 " long="96.53 ms"/>
+        <STEP value="0.638555527" short="103.13" long="103.13 ms"/>
+        <STEP value="0.651916683" short="111.15" long="111.15 ms"/>
+        <STEP value="0.652666688" short="111.60" long="111.60 ms"/>
+        <STEP value="0.654666662" short="112.80" long="112.80 ms"/>
+        <STEP value="0.658972204" short="115.38" long="115.38 ms"/>
+        <STEP value="0.671888888" short="123.13" long="123.13 ms"/>
+        <STEP value="0.678277791" short="126.97" long="126.97 ms"/>
+        <STEP value="0.681999981" short="129.20" long="129.20 ms"/>
+        <STEP value="0.685638905" short="131.38" long="131.38 ms"/>
+        <STEP value="0.699388862" short="139.63" long="139.63 ms"/>
+        <STEP value="0.703888893" short="142.33" long="142.33 ms"/>
+        <STEP value="0.710388899" short="146.23" long="146.23 ms"/>
+        <STEP value="0.711388886" short="146.83" long="146.83 ms"/>
+        <STEP value="0.713500023" short="148.10" long="148.10 ms"/>
+        <STEP value="0.726888895" short="156.13" long="156.13 ms"/>
+        <STEP value="0.730000019" short="158.00" long="158.00 ms"/>
+        <STEP value="0.740999997" short="164.60" long="164.60 ms"/>
+        <STEP value="0.742722213" short="165.63" long="165.63 ms"/>
+        <STEP value="0.748027802" short="168.82" long="168.82 ms"/>
+        <STEP value="0.757499993" short="174.50" long="174.50 ms"/>
+        <STEP value="0.765388906" short="179.23" long="179.23 ms"/>
+        <STEP value="0.767277777" short="180.37" long="180.37 ms"/>
+        <STEP value="0.778277755" short="186.97" long="186.97 ms"/>
+        <STEP value="0.781888902" short="189.13" long="189.13 ms"/>
+        <STEP value="0.7875278" short="192.52" long="192.52 ms"/>
+        <STEP value="0.79288888" short="195.73" long="195.73 ms"/>
+        <STEP value="0.804277778" short="206.42" long="206.42 ms"/>
+        <STEP value="0.806638896" short="209.96" long="209.96 ms"/>
+        <STEP value="0.817250013" short="225.88" long="225.88 ms"/>
+        <STEP value="0.820777774" short="231.17" long="231.17 ms"/>
+        <STEP value="0.825500011" short="238.25" long="238.25 ms"/>
+        <STEP value="0.840527773" short="260.79" long="260.79 ms"/>
+        <STEP value="0.842000008" short="263.00" long="263.00 ms"/>
+        <STEP value="0.858138859" short="287.21" long="287.21 ms"/>
+        <STEP value="0.858666658" short="288.00" long="288.00 ms"/>
+        <STEP value="0.862527788" short="293.79" long="293.79 ms"/>
+        <STEP value="0.879027784" short="318.54" long="318.54 ms"/>
+        <STEP value="0.889138877" short="333.71" long="333.71 ms"/>
+        <STEP value="0.892888904" short="339.33" long="339.33 ms"/>
+        <STEP value="0.894527793" short="341.79" long="341.79 ms"/>
+        <STEP value="0.897388875" short="346.08" long="346.08 ms"/>
+        <STEP value="0.897638917" short="346.46" long="346.46 ms"/>
+        <STEP value="0.904194474" short="356.29" long="356.29 ms"/>
+        <STEP value="0.904472232" short="356.71" long="356.71 ms"/>
+        <STEP value="0.909055531" short="363.58" long="363.58 ms"/>
+        <STEP value="0.912166655" short="368.25" long="368.25 ms"/>
+        <STEP value="0.913805544" short="370.71" long="370.71 ms"/>
+        <STEP value="0.914722204" short="372.08" long="372.08 ms"/>
+        <STEP value="0.915222228" short="372.83" long="372.83 ms"/>
+        <STEP value="0.916861117" short="375.29" long="375.29 ms"/>
+        <STEP value="0.921138883" short="381.71" long="381.71 ms"/>
+        <STEP value="0.922972202" short="384.46" long="384.46 ms"/>
+        <STEP value="0.924805582" short="387.21" long="387.21 ms"/>
+        <STEP value="0.926555574" short="389.83" long="389.83 ms"/>
+        <STEP value="0.928111136" short="392.17" long="392.17 ms"/>
+        <STEP value="0.92952776" short="394.29" long="394.29 ms"/>
+        <STEP value="0.930444419" short="395.67" long="395.67 ms"/>
+        <STEP value="0.937888861" short="406.83" long="406.83 ms"/>
+        <STEP value="0.948777795" short="423.17" long="423.17 ms"/>
+        <STEP value="0.95397222" short="430.96" long="430.96 ms"/>
+        <STEP value="0.970472217" short="455.71" long="455.71 ms"/>
+        <STEP value="0.986277759" short="479.42" long="479.42 ms"/>
+        <STEP value="1" short="500.00" long="500.00 ms"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="Auto" long="Auto Gain" paramId="14">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="DRYPan" long="Dry Pan" paramId="13">
+        <STEP value="0" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.00572222471" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.0194722116" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.0267222226" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.0366944373" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.0466388762" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.0548889041" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.0680000186" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.0817500055" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.0982500017" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.099222213" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.124750018" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.131222218" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.133972228" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.13499999" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.137611091" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.140500009" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.141416669" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.143055558" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.146388888" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.151111126" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.154277772" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.173527777" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.17586112" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.187277794" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.189249992" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.200388908" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.205749989" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.206055552" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.213166654" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.216499984" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.218972206" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.221638888" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.228666663" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.229972243" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.230888903" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.23188889" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.23594445" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.237805545" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.241777778" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.248916686" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.249722242" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.250583321" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.253500015" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.263944447" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.27274999" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.277694434" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.288333327" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.304833323" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.312000006" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.318194449" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.322805554" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.329444438" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.331250012" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.334194452" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.341444433" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.353249997" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.355194449" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.367000014" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.372500002" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.377194434" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.380388886" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.393083334" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.40958333" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.410944432" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.420861125" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.422972232" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.423750013" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.427083343" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.432222217" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.436083347" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.445972234" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.447083324" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.44861111" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.456972212" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.46208334" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.469583333" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.47594443" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.476111114" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.478694439" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.48241666" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.483194441" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.485583335" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.487111121" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.487805545" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.490694433" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.493944436" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.502972245" short="Mid: -" long="Mid: -0.05 dB / S"/>
+        <STEP value="0.505722225" short="Mid: -" long="Mid: -0.10 dB / S"/>
+        <STEP value="0.507055581" short="Mid: -" long="Mid: -0.12 dB / S"/>
+        <STEP value="0.511805534" short="Mid: -" long="Mid: -0.21 dB / S"/>
+        <STEP value="0.516916692" short="Mid: -" long="Mid: -0.30 dB / S"/>
+        <STEP value="0.533305526" short="Mid: -" long="Mid: -0.60 dB / S"/>
+        <STEP value="0.547055542" short="Mid: -" long="Mid: -0.86 dB / S"/>
+        <STEP value="0.563555539" short="Mid: -" long="Mid: -1.18 dB / S"/>
+        <STEP value="0.580055535" short="Mid: -" long="Mid: -1.52 dB / S"/>
+        <STEP value="0.581444442" short="Mid: -" long="Mid: -1.54 dB / S"/>
+        <STEP value="0.582694471" short="Mid: -" long="Mid: -1.57 dB / S"/>
+        <STEP value="0.592305541" short="Mid: -" long="Mid: -1.77 dB / S"/>
+        <STEP value="0.599333346" short="Mid: -" long="Mid: -1.92 dB / S"/>
+        <STEP value="0.607583344" short="Mid: -" long="Mid: -2.10 dB / S"/>
+        <STEP value="0.612138867" short="Mid: -" long="Mid: -2.21 dB / S"/>
+        <STEP value="0.625388861" short="Mid: -" long="Mid: -2.51 dB / S"/>
+        <STEP value="0.636388898" short="Mid: -" long="Mid: -2.77 dB / S"/>
+        <STEP value="0.644638896" short="Mid: -" long="Mid: -2.97 dB / S"/>
+        <STEP value="0.654694438" short="Mid: -" long="Mid: -3.22 dB / S"/>
+        <STEP value="0.659749985" short="Mid: -" long="Mid: -3.34 dB / S"/>
+        <STEP value="0.662972212" short="Mid: -" long="Mid: -3.43 dB / S"/>
+        <STEP value="0.667638898" short="Mid: -" long="Mid: -3.55 dB / S"/>
+        <STEP value="0.67455554" short="Mid: -" long="Mid: -3.73 dB / S"/>
+        <STEP value="0.682805538" short="Mid: -" long="Mid: -3.95 dB / S"/>
+        <STEP value="0.690416694" short="Mid: -" long="Mid: -4.16 dB / S"/>
+        <STEP value="0.698666692" short="Mid: -" long="Mid: -4.40 dB / S"/>
+        <STEP value="0.715166688" short="Mid: -" long="Mid: -4.89 dB / S"/>
+        <STEP value="0.737166643" short="Mid: -" long="Mid: -5.59 dB / S"/>
+        <STEP value="0.750722229" short="Mid: -" long="Mid: -6.05 dB / S"/>
+        <STEP value="0.758277774" short="Mid: -" long="Mid: -6.31 dB / S"/>
+        <STEP value="0.767750025" short="Mid: -" long="Mid: -6.66 dB / S"/>
+        <STEP value="0.781138897" short="Mid: -" long="Mid: -7.18 dB / S"/>
+        <STEP value="0.794499993" short="Mid: -" long="Mid: -7.72 dB / S"/>
+        <STEP value="0.807666659" short="Mid: -" long="Mid: -8.30 dB / S"/>
+        <STEP value="0.818555534" short="Mid: -" long="Mid: -8.80 dB / S"/>
+        <STEP value="0.837527752" short="Mid: -" long="Mid: -9.76 dB / S"/>
+        <STEP value="0.843027771" short="Mid: -" long="Mid: -10.06 dB / "/>
+        <STEP value="0.846777797" short="Mid: -" long="Mid: -10.27 dB / "/>
+        <STEP value="0.848416686" short="Mid: -" long="Mid: -10.37 dB / "/>
+        <STEP value="0.854499996" short="Mid: -" long="Mid: -10.72 dB / "/>
+        <STEP value="0.862361133" short="Mid: -" long="Mid: -11.20 dB / "/>
+        <STEP value="0.867861092" short="Mid: -" long="Mid: -11.56 dB / "/>
+        <STEP value="0.889555573" short="Mid: -" long="Mid: -13.12 dB / "/>
+        <STEP value="0.902944446" short="Mid: -" long="Mid: -14.24 dB / "/>
+        <STEP value="0.913944423" short="Mid: -" long="Mid: -15.28 dB / "/>
+        <STEP value="0.922194421" short="Mid: -" long="Mid: -16.16 dB / "/>
+        <STEP value="0.935944438" short="Mid: -" long="Mid: -17.85 dB / "/>
+        <STEP value="0.952444434" short="Mid: -" long="Mid: -20.44 dB / "/>
+        <STEP value="0.966194451" short="Mid: -" long="Mid: -23.40 dB / "/>
+        <STEP value="0.992694438" short="Mid: -" long="Mid: -36.71 dB / "/>
+        <STEP value="1" short="Mid: -" long="Mid: -INF dB / Si"/>
+      </VPOT>
+      <VPOT short="WETPan" long="Wet Pan" paramId="11">
+        <STEP value="0" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.000888884068" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.00344443321" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.0112499893" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.0153888762" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.0219166577" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.026555568" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.0348055661" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.0381944478" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.0430555642" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.0595555604" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.0627499819" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.0726666749" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.0820000172" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.0864166617" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.0932777822" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.0957500041" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.100944459" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.104083329" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.114138901" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.11669445" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.122944444" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.130222201" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.133194447" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.141222239" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.146944463" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.149333328" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.153138876" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.15474999" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.154777765" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.159500003" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.168527782" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.175249994" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.175500005" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.182666659" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.183361113" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.187555552" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.193555534" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.194722235" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.197472215" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.201805562" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.211222231" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.218305558" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.218722224" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.22855556" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.23130554" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.232055545" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.236249983" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.237694442" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.238611102" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.245722234" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.246944427" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.248083353" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.250472218" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.257722229" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.260111123" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.261083335" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.267833322" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.269277781" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.281722218" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.282499999" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.296249986" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.296999991" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.298222214" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.29844445" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.299277782" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.30027777" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.301111102" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.302722216" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.307472229" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.308916658" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.309749991" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.31119445" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.312805563" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.31472221" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.316611111" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.319083333" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.322972208" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.329333335" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.330777764" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.334611118" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.341416657" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.341694444" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.344166666" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.345833331" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.350055546" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.350277781" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.355166674" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.361277789" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.366166681" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.369138896" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.376166672" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.399916679" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.402888894" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.410916656" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.413166672" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.414611101" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.415555567" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.418305546" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.423083335" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.424499989" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.427833319" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.437944442" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.438472211" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.44083333" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.448444456" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.451694459" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.459444433" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.462500006" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.464944452" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.468916655" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.469472229" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.471861124" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.473055542" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.475388885" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.479555547" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.480250001" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.480277777" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.481472224" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.484361112" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.486250013" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.488999993" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.494500011" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.494666666" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.495583326" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.497249991" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.5" short="Mid: 0" long="Mid: 0 dB / Side:"/>
+        <STEP value="0.500166655" short="Mid: 0" long="Mid: 0.00 dB / Si"/>
+        <STEP value="0.5031389" short="Mid: -" long="Mid: -0.05 dB / S"/>
+        <STEP value="0.504916668" short="Mid: -" long="Mid: -0.09 dB / S"/>
+        <STEP value="0.506944418" short="Mid: -" long="Mid: -0.12 dB / S"/>
+        <STEP value="0.50830555" short="Mid: -" long="Mid: -0.15 dB / S"/>
+        <STEP value="0.508972228" short="Mid: -" long="Mid: -0.16 dB / S"/>
+        <STEP value="0.512444437" short="Mid: -" long="Mid: -0.22 dB / S"/>
+        <STEP value="0.512805581" short="Mid: -" long="Mid: -0.23 dB / S"/>
+        <STEP value="0.51516664" short="Mid: -" long="Mid: -0.27 dB / S"/>
+        <STEP value="0.52516669" short="Mid: -" long="Mid: -0.45 dB / S"/>
+        <STEP value="0.526194453" short="Mid: -" long="Mid: -0.47 dB / S"/>
+        <STEP value="0.529777765" short="Mid: -" long="Mid: -0.53 dB / S"/>
+        <STEP value="0.532333314" short="Mid: -" long="Mid: -0.58 dB / S"/>
+        <STEP value="0.536000013" short="Mid: -" long="Mid: -0.65 dB / S"/>
+        <STEP value="0.539111137" short="Mid: -" long="Mid: -0.71 dB / S"/>
+        <STEP value="0.542333305" short="Mid: -" long="Mid: -0.77 dB / S"/>
+        <STEP value="0.542944431" short="Mid: -" long="Mid: -0.78 dB / S"/>
+        <STEP value="0.550194442" short="Mid: -" long="Mid: -0.92 dB / S"/>
+        <STEP value="0.550888896" short="Mid: -" long="Mid: -0.93 dB / S"/>
+        <STEP value="0.554111123" short="Mid: -" long="Mid: -0.99 dB / S"/>
+        <STEP value="0.554861128" short="Mid: -" long="Mid: -1.01 dB / S"/>
+        <STEP value="0.55602777" short="Mid: -" long="Mid: -1.03 dB / S"/>
+        <STEP value="0.559972227" short="Mid: -" long="Mid: -1.11 dB / S"/>
+        <STEP value="0.563361108" short="Mid: -" long="Mid: -1.18 dB / S"/>
+        <STEP value="0.570972204" short="Mid: -" long="Mid: -1.33 dB / S"/>
+        <STEP value="0.576666653" short="Mid: -" long="Mid: -1.45 dB / S"/>
+        <STEP value="0.577611089" short="Mid: -" long="Mid: -1.47 dB / S"/>
+        <STEP value="0.579111099" short="Mid: -" long="Mid: -1.50 dB / S"/>
+        <STEP value="0.58322221" short="Mid: -" long="Mid: -1.58 dB / S"/>
+        <STEP value="0.585583329" short="Mid: -" long="Mid: -1.63 dB / S"/>
+        <STEP value="0.5874722" short="Mid: -" long="Mid: -1.67 dB / S"/>
+        <STEP value="0.592722237" short="Mid: -" long="Mid: -1.78 dB / S"/>
+        <STEP value="0.597833335" short="Mid: -" long="Mid: -1.89 dB / S"/>
+        <STEP value="0.601027787" short="Mid: -" long="Mid: -1.96 dB / S"/>
+        <STEP value="0.603333354" short="Mid: -" long="Mid: -2.01 dB / S"/>
+        <STEP value="0.610583305" short="Mid: -" long="Mid: -2.17 dB / S"/>
+        <STEP value="0.61833334" short="Mid: -" long="Mid: -2.35 dB / S"/>
+        <STEP value="0.621388912" short="Mid: -" long="Mid: -2.42 dB / S"/>
+        <STEP value="0.624944448" short="Mid: -" long="Mid: -2.50 dB / S"/>
+        <STEP value="0.627527773" short="Mid: -" long="Mid: -2.56 dB / S"/>
+        <STEP value="0.628611088" short="Mid: -" long="Mid: -2.58 dB / S"/>
+        <STEP value="0.628694415" short="Mid: -" long="Mid: -2.58 dB / S"/>
+        <STEP value="0.633805573" short="Mid: -" long="Mid: -2.71 dB / S"/>
+        <STEP value="0.635972202" short="Mid: -" long="Mid: -2.76 dB / S"/>
+        <STEP value="0.638638914" short="Mid: -" long="Mid: -2.82 dB / S"/>
+        <STEP value="0.64402777" short="Mid: -" long="Mid: -2.95 dB / S"/>
+        <STEP value="0.645555556" short="Mid: -" long="Mid: -2.99 dB / S"/>
+        <STEP value="0.648888886" short="Mid: -" long="Mid: -3.07 dB / S"/>
+        <STEP value="0.650416672" short="Mid: -" long="Mid: -3.11 dB / S"/>
+        <STEP value="0.653361082" short="Mid: -" long="Mid: -3.18 dB / S"/>
+        <STEP value="0.657583356" short="Mid: -" long="Mid: -3.29 dB / S"/>
+        <STEP value="0.658861101" short="Mid: -" long="Mid: -3.32 dB / S"/>
+        <STEP value="0.661555529" short="Mid: -" long="Mid: -3.39 dB / S"/>
+        <STEP value="0.66291666" short="Mid: -" long="Mid: -3.42 dB / S"/>
+        <STEP value="0.666722238" short="Mid: -" long="Mid: -3.52 dB / S"/>
+        <STEP value="0.667111099" short="Mid: -" long="Mid: -3.53 dB / S"/>
+        <STEP value="0.671055555" short="Mid: -" long="Mid: -3.64 dB / S"/>
+        <STEP value="0.673277795" short="Mid: -" long="Mid: -3.70 dB / S"/>
+        <STEP value="0.680277765" short="Mid: -" long="Mid: -3.88 dB / S"/>
+        <STEP value="0.681166649" short="Mid: -" long="Mid: -3.91 dB / S"/>
+        <STEP value="0.686138868" short="Mid: -" long="Mid: -4.04 dB / S"/>
+        <STEP value="0.690194428" short="Mid: -" long="Mid: -4.16 dB / S"/>
+        <STEP value="0.691638887" short="Mid: -" long="Mid: -4.20 dB / S"/>
+        <STEP value="0.693027794" short="Mid: -" long="Mid: -4.24 dB / S"/>
+        <STEP value="0.696722209" short="Mid: -" long="Mid: -4.34 dB / S"/>
+        <STEP value="0.697416663" short="Mid: -" long="Mid: -4.36 dB / S"/>
+        <STEP value="0.698472202" short="Mid: -" long="Mid: -4.39 dB / S"/>
+        <STEP value="0.705666661" short="Mid: -" long="Mid: -4.60 dB / S"/>
+        <STEP value="0.707194448" short="Mid: -" long="Mid: -4.65 dB / S"/>
+        <STEP value="0.707527757" short="Mid: -" long="Mid: -4.66 dB / S"/>
+        <STEP value="0.708638906" short="Mid: -" long="Mid: -4.69 dB / S"/>
+        <STEP value="0.714527786" short="Mid: -" long="Mid: -4.87 dB / S"/>
+        <STEP value="0.719250023" short="Mid: -" long="Mid: -5.01 dB / S"/>
+        <STEP value="0.719611108" short="Mid: -" long="Mid: -5.02 dB / S"/>
+        <STEP value="0.722000003" short="Mid: -" long="Mid: -5.10 dB / S"/>
+        <STEP value="0.72299999" short="Mid: -" long="Mid: -5.13 dB / S"/>
+        <STEP value="0.72391665" short="Mid: -" long="Mid: -5.16 dB / S"/>
+        <STEP value="0.72613889" short="Mid: -" long="Mid: -5.23 dB / S"/>
+        <STEP value="0.727583349" short="Mid: -" long="Mid: -5.27 dB / S"/>
+        <STEP value="0.728666663" short="Mid: -" long="Mid: -5.31 dB / S"/>
+        <STEP value="0.730361104" short="Mid: -" long="Mid: -5.36 dB / S"/>
+        <STEP value="0.731944442" short="Mid: -" long="Mid: -5.41 dB / S"/>
+        <STEP value="0.73686111" short="Mid: -" long="Mid: -5.58 dB / S"/>
+        <STEP value="0.742305577" short="Mid: -" long="Mid: -5.76 dB / S"/>
+        <STEP value="0.753111124" short="Mid: -" long="Mid: -6.13 dB / S"/>
+        <STEP value="0.753361106" short="Mid: -" long="Mid: -6.14 dB / S"/>
+        <STEP value="0.756055534" short="Mid: -" long="Mid: -6.23 dB / S"/>
+        <STEP value="0.758777797" short="Mid: -" long="Mid: -6.33 dB / S"/>
+        <STEP value="0.76111114" short="Mid: -" long="Mid: -6.42 dB / S"/>
+        <STEP value="0.762388885" short="Mid: -" long="Mid: -6.46 dB / S"/>
+        <STEP value="0.767888904" short="Mid: -" long="Mid: -6.67 dB / S"/>
+        <STEP value="0.769555569" short="Mid: -" long="Mid: -6.73 dB / S"/>
+        <STEP value="0.778888881" short="Mid: -" long="Mid: -7.09 dB / S"/>
+        <STEP value="0.782944441" short="Mid: -" long="Mid: -7.25 dB / S"/>
+        <STEP value="0.788055539" short="Mid: -" long="Mid: -7.45 dB / S"/>
+        <STEP value="0.790805578" short="Mid: -" long="Mid: -7.57 dB / S"/>
+        <STEP value="0.791555583" short="Mid: -" long="Mid: -7.60 dB / S"/>
+        <STEP value="0.792638898" short="Mid: -" long="Mid: -7.64 dB / S"/>
+        <STEP value="0.794305563" short="Mid: -" long="Mid: -7.71 dB / S"/>
+        <STEP value="0.801305532" short="Mid: -" long="Mid: -8.02 dB / S"/>
+        <STEP value="0.805861115" short="Mid: -" long="Mid: -8.22 dB / S"/>
+        <STEP value="0.80916667" short="Mid: -" long="Mid: -8.37 dB / S"/>
+        <STEP value="0.814166665" short="Mid: -" long="Mid: -8.60 dB / S"/>
+        <STEP value="0.816861093" short="Mid: -" long="Mid: -8.72 dB / S"/>
+        <STEP value="0.822361112" short="Mid: -" long="Mid: -8.99 dB / S"/>
+        <STEP value="0.822416663" short="Mid: -" long="Mid: -8.99 dB / S"/>
+        <STEP value="0.826611102" short="Mid: -" long="Mid: -9.20 dB / S"/>
+        <STEP value="0.830555558" short="Mid: -" long="Mid: -9.40 dB / S"/>
+        <STEP value="0.831666648" short="Mid: -" long="Mid: -9.46 dB / S"/>
+        <STEP value="0.832888901" short="Mid: -" long="Mid: -9.52 dB / S"/>
+        <STEP value="0.835361123" short="Mid: -" long="Mid: -9.65 dB / S"/>
+        <STEP value="0.838166654" short="Mid: -" long="Mid: -9.80 dB / S"/>
+        <STEP value="0.838944435" short="Mid: -" long="Mid: -9.84 dB / S"/>
+        <STEP value="0.843638897" short="Mid: -" long="Mid: -10.10 dB / "/>
+        <STEP value="0.846111119" short="Mid: -" long="Mid: -10.24 dB / "/>
+        <STEP value="0.850861132" short="Mid: -" long="Mid: -10.51 dB / "/>
+        <STEP value="0.857388914" short="Mid: -" long="Mid: -10.90 dB / "/>
+        <STEP value="0.860388875" short="Mid: -" long="Mid: -11.08 dB / "/>
+        <STEP value="0.868250012" short="Mid: -" long="Mid: -11.58 dB / "/>
+        <STEP value="0.870638907" short="Mid: -" long="Mid: -11.74 dB / "/>
+        <STEP value="0.87075001" short="Mid: -" long="Mid: -11.75 dB / "/>
+        <STEP value="0.872055531" short="Mid: -" long="Mid: -11.84 dB / "/>
+        <STEP value="0.87349999" short="Mid: -" long="Mid: -11.94 dB / "/>
+        <STEP value="0.876138866" short="Mid: -" long="Mid: -12.12 dB / "/>
+        <STEP value="0.878750026" short="Mid: -" long="Mid: -12.31 dB / "/>
+        <STEP value="0.881749988" short="Mid: -" long="Mid: -12.52 dB / "/>
+        <STEP value="0.886250019" short="Mid: -" long="Mid: -12.86 dB / "/>
+        <STEP value="0.890999973" short="Mid: -" long="Mid: -13.23 dB / "/>
+        <STEP value="0.895500004" short="Mid: -" long="Mid: -13.60 dB / "/>
+        <STEP value="0.901250005" short="Mid: -" long="Mid: -14.09 dB / "/>
+        <STEP value="0.906138897" short="Mid: -" long="Mid: -14.53 dB / "/>
+        <STEP value="0.906750023" short="Mid: -" long="Mid: -14.59 dB / "/>
+        <STEP value="0.914388895" short="Mid: -" long="Mid: -15.33 dB / "/>
+        <STEP value="0.917750001" short="Mid: -" long="Mid: -15.68 dB / "/>
+        <STEP value="0.921999991" short="Mid: -" long="Mid: -16.14 dB / "/>
+        <STEP value="0.924888909" short="Mid: -" long="Mid: -16.47 dB / "/>
+        <STEP value="0.928944468" short="Mid: -" long="Mid: -16.95 dB / "/>
+        <STEP value="0.930361092" short="Mid: -" long="Mid: -17.12 dB / "/>
+        <STEP value="0.933000028" short="Mid: -" long="Mid: -17.46 dB / "/>
+        <STEP value="0.934194446" short="Mid: -" long="Mid: -17.61 dB / "/>
+        <STEP value="0.934416652" short="Mid: -" long="Mid: -17.64 dB / "/>
+        <STEP value="0.936861098" short="Mid: -" long="Mid: -17.97 dB / "/>
+        <STEP value="0.939472198" short="Mid: -" long="Mid: -18.34 dB / "/>
+        <STEP value="0.944277763" short="Mid: -" long="Mid: -19.06 dB / "/>
+        <STEP value="0.948499978" short="Mid: -" long="Mid: -19.74 dB / "/>
+        <STEP value="0.956749976" short="Mid: -" long="Mid: -21.26 dB / "/>
+        <STEP value="0.967361093" short="Mid: -" long="Mid: -23.70 dB / "/>
+        <STEP value="0.968027771" short="Mid: -" long="Mid: -23.88 dB / "/>
+        <STEP value="0.969749987" short="Mid: -" long="Mid: -24.36 dB / "/>
+        <STEP value="0.981777787" short="Mid: -" long="Mid: -28.77 dB / "/>
+        <STEP value="0.983500004" short="Mid: -" long="Mid: -29.63 dB / "/>
+        <STEP value="0.98744446" short="Mid: -" long="Mid: -32.00 dB / "/>
+        <STEP value="0.992138863" short="Mid: -" long="Mid: -36.07 dB / "/>
+        <STEP value="0.994861126" short="Mid: -" long="Mid: -39.76 dB / "/>
+        <STEP value="0.996472239" short="Mid: -" long="Mid: -43.03 dB / "/>
+        <STEP value="1" short="Mid: -" long="Mid: -INF dB / Si"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="1" short="SC" long="SideChain" referTo="-1" offset="0">
+      <FADER short="SCGAIN" long="Side Chain Level" paramId="17"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="STLink" long="Stereo Link" paramId="18"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT short="SC EN" long="Side Chain Expert" paramId="15">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="SCMODE" long="Side Chain Input" paramId="16">
+        <STEP value="0" short="Plug-i" long="Plug-in Input"/>
+        <STEP value="1" short="Extern" long="External Input"/>
+      </VPOT>
+      <VPOT short="Listen" long="Audition Side Cha" paramId="32">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="STMode" long="Stereo Link Mode" paramId="19">
+        <STEP value="0" short="Mid" long="Mid"/>
+        <STEP value="0.333333343" short="Side" long="Side"/>
+        <STEP value="0.666666687" short="M -&gt; S" long="M -&gt; S"/>
+        <STEP value="1" short="S -&gt; M" long="S -&gt; M"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="2" short="SC EQ" long="SideChain EQ" referTo="-1" offset="0">
+      <FADER short="HP FRQ" long="Side Chain Low Fr" paramId="21"/>
+      <FADER paramId="-1"/>
+      <FADER short="MIDFRQ" long="Side Chain Mid Fr" paramId="25"/>
+      <FADER short="MIDLVL" long="Side Chain Mid Ga" paramId="26"/>
+      <FADER short="MidQ" long="Side Chain Mid Q" paramId="27"/>
+      <FADER short="LP FRQ" long="Side Chain High F" paramId="30"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT short="HPF ON" long="Side Chain Low En" paramId="20">
+        <STEP value="0" short="Disabl" long="Disabled"/>
+        <STEP value="1" short="Enable" long="Enabled"/>
+      </VPOT>
+      <VPOT short="SLOPE" long="Side Chain Low Sl" paramId="22">
+        <STEP value="0" short="6 dB/o" long="6 dB/oct"/>
+        <STEP value="0.125" short="12 dB/" long="12 dB/oct"/>
+        <STEP value="0.25" short="18 dB/" long="18 dB/oct"/>
+        <STEP value="0.5" short="30 dB/" long="30 dB/oct"/>
+        <STEP value="0.625" short="36 dB/" long="36 dB/oct"/>
+        <STEP value="0.75" short="48 dB/" long="48 dB/oct"/>
+        <STEP value="0.875" short="72 dB/" long="72 dB/oct"/>
+        <STEP value="1" short="96 dB/" long="96 dB/oct"/>
+      </VPOT>
+      <VPOT short="MID ON" long="Side Chain Mid En" paramId="24">
+        <STEP value="0" short="Disabl" long="Disabled"/>
+        <STEP value="1" short="Enable" long="Enabled"/>
+      </VPOT>
+      <VPOT short="AUTO" long="Side Chain Mid Au" paramId="23">
+        <STEP value="0" short="Manual" long="Manual"/>
+        <STEP value="1" short="Auto" long="Auto"/>
+      </VPOT>
+      <VPOT short="MidTyp" long="Side Chain Mid Sh" paramId="28">
+        <STEP value="0" short="Bell" long="Bell"/>
+        <STEP value="0.200000003" short="Low Sh" long="Low Shelf"/>
+        <STEP value="0.400000006" short="High S" long="High Shelf"/>
+        <STEP value="0.600000024" short="Notch" long="Notch"/>
+        <STEP value="0.800000012" short="Band P" long="Band Pass"/>
+        <STEP value="1" short="Tilt S" long="Tilt Shelf"/>
+      </VPOT>
+      <VPOT short="LPF ON" long="Side Chain High E" paramId="29">
+        <STEP value="0" short="Disabl" long="Disabled"/>
+        <STEP value="1" short="Enable" long="Enabled"/>
+      </VPOT>
+      <VPOT short="SLOPE" long="Side Chain High S" paramId="31">
+        <STEP value="0" short="6 dB/o" long="6 dB/oct"/>
+        <STEP value="0.125" short="12 dB/" long="12 dB/oct"/>
+        <STEP value="0.375" short="24 dB/" long="24 dB/oct"/>
+        <STEP value="0.5" short="30 dB/" long="30 dB/oct"/>
+        <STEP value="0.625" short="36 dB/" long="36 dB/oct"/>
+        <STEP value="0.75" short="48 dB/" long="48 dB/oct"/>
+        <STEP value="0.875" short="72 dB/" long="72 dB/oct"/>
+        <STEP value="1" short="96 dB/" long="96 dB/oct"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+</PLUGMAP>
