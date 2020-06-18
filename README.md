@@ -28,3 +28,7 @@ Files related to Mackie Control. This entire directory should be placed in Docum
 
 - The setup is created on and ideally made for a Behringer X-Touch unit. Each .xml file corresponds to a plugin with the same name, and many are annoted as to function.
 - A rough naming convention is followed where possible. Labels in ALLCAPS indicate a discrete values, and standard caps indicate float paramters. Labels affixed with a colon separator indicate groupings.
+
+## MIDINoteNames
+
+A collection of files related to the midi mapping named notes editor.
