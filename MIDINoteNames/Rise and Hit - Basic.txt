@@ -1,0 +1,3 @@
+# MIDI note/CC name map
+62 ///\\\ HITS ///\\\
+61 \\\/// RISERS \\\///

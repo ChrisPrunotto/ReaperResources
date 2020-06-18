@@ -1,0 +1,34 @@
+# MIDI note/CC name map
+65 Hi-Hat - Seq Hits
+64 Hi-Hat - Open Min
+63 Hi-Hat - Tight Tip
+62 Hi-Hat - Tight Edge
+61 Hi-Hat - Closed Tip
+60 Hi-Hat - Open Max
+59 Ride - Edge
+58 Cymbal 3 - Muted
+57 Cymbal 3
+56 Cymbal 2 - Muted
+55 Cymbal 2
+53 Ride - Bell
+52 China
+51 Ride Bow
+50 Cymbal 1 - Muted
+49 Cymbal 1
+48 Rack Tom 1
+47 Rack Tom 2
+46 Hi-Hat - Open
+44 Hi-Hat - Pedal
+43 Floor Tom 1
+42 Hi-Hat - Closed
+41 Floor Tom 2
+40 Snare Rimshot
+38 Snare Head
+37 Snare SideStick
+36 Kick
+26 Open Hats 3
+25 Open Hats 2
+24 Open Hats 1
+23 Open Pedal
+22 Closed Hats
+21 Closed Pedal

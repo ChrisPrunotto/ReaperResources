@@ -1,0 +1,49 @@
+# MIDI note/CC name map
+127 X-Snare Sidestick
+126 X-Snare Rimshot
+125 X-Snare Head
+124 X-Hats Open
+123 X-Hats 1/2 Open
+122 X-Hats Closed
+121 X-Cymbals Crash C
+120 X-Cymbals Crash B
+119 X-Cymbals-Crash A
+118 X-Ride Edge
+117 X-Ride Bell
+116 X-Ride Bow
+76 X-Racktom 1
+75 X-Racktom 2
+74 X-Racktom 3
+73 X-Floortom 1
+72 X-Floortom 2
+59 Ride Edge
+58 Crash B Mute
+57 Crash B
+56 (Variable)
+55 Crash C
+54 (Variable)
+53 Ride Bell
+52 (China)
+51 Ride Bow
+50 Crash A Mute
+49 Crash A
+48 Rack Tom 1
+47 Rack Tom 2
+46 Tom (GM Hats)
+45 Rack Tom 3
+44 Tom (GM Hats)
+43 Floor Tom 1
+42 Tom (GM Hats)
+41 Floor Tom 2
+40 Snare Rimshot
+39 Snare (Ruffs)
+38 Snare Head
+37 Snare SideStick
+36 Kick
+35 (X-Kick)
+26 Open Hats 3
+25 Open Hats 2
+24 Open Hats 1
+23 Open Pedal
+22 Closed Hats
+21 Closed Pedal

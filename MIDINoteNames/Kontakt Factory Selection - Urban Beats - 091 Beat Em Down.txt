@@ -1,0 +1,62 @@
+# MIDI note/CC name map
+96 Clear FX
+95 Vinyl LPF ResoVerb
+94 LPF ResoVerb
+93 HPF + Reverb + Delay More
+92 HPF + Reverb + Delay
+91 Vinyl LP Reverb!
+90 LP Reverb - MORE!
+89 LP Reverb
+88 LP Filter
+87 Delay FX
+86 Vinyl Reso
+85 HP Filter
+84 Clear FX
+83 Groovebox 12
+82 Groovebox 11
+81 Groovebox 10
+80 Groovebox 9
+79 Groovebox 8
+78 Groovebox 7
+77 Groovebox 6
+76 Groovebox 5
+75 Groovebox 4
+74 Groovebox 3
+73 Groovebox 2
+72 Groovebox 1
+71 Loops 12
+70 Loops 11
+69 Loops 10
+68 Loops 9
+67 Loops 8
+66 Loops 7
+65 Loops 6
+64 Loops 5
+63 Loops 4
+62 Loops 3
+61 Loops 2
+60 Loops 1
+59 Slices #1
+58 Kick Open Hi-Hat
+57 Kick Combo 3
+56 Chime Hat
+55 Kick Combo 2
+54 Close Hi-Hat 2
+53 Vibraslap Hat
+52 Snare 3
+51 Clave Hat
+50 Snare 2
+49 Clave 2
+48 Kick 2
+47 Kick Combo
+46 Open Hi-Hat 2
+45 Clave Combo 2
+44 Pedal Hi-Hat
+43 Clave Combo
+42 Closed Hi-Hat
+41 Chimes
+40 Vibraslap 2
+39 Vibraslap
+38 Snare
+37 Clave
+36 Kick

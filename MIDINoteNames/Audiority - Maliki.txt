@@ -1,0 +1,66 @@
+# MIDI note/CC name map
+105 Mix Recall 10
+104 Mix Recall 9
+103 Mix Recall 8
+102 Mix Recall 7
+101 Mix Recall 6
+100 Mix Recall 5
+99 Mix Recall 4
+98 Mix Recall 3
+97 Mix Recall 2
+96 Mix Recall 1
+
+93 Ignite 10
+92 Ignite 9
+91 Ignite 8
+90 Ignite 7
+89 Ignite 6
+88 Ignite 5
+87 Ignite 4
+86 Ignite 3
+85 Ignite 2
+84 Ignite 1
+
+81 Big Smash 10
+80 Big Smash 9
+79 Big Smash 8
+78 Big Smash 7
+77 Big Smash 6
+76 Big Smash 5
+75 Big Smash 4
+74 Big Smash 3
+73 Big Smash 2
+72 Big Smash 1
+
+69 Floor Tom 10
+68 Floor Tom 9
+67 Floor Tom 8
+66 Floor Tom 7
+65 Floor Tom 6
+64 Floor Tom 5
+63 Floor Tom 4
+62 Floor Tom 3
+61 Floor Tom 2
+60 Floor Tom 1
+
+57 Bass Drum Ens 10
+56 Bass Drum Ens 9
+55 Bass Drum Ens 8
+54 Bass Drum Ens 7
+53 Bass Drum Ens 6
+52 Bass Drum Ens 5
+51 Bass Drum Ens 4
+50 Bass Drum Ens 3
+49 Bass Drum Ens 2
+48 Bass Drum Ens 1
+
+45 Full Mix 10
+44 Full Mix 9
+43 Full Mix 8
+42 Full Mix 7
+41 Full Mix 6
+40 Full Mix 5
+39 Full Mix 4
+38 Full Mix 3
+37 Full Mix 2
+36 Full Mix 1

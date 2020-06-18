@@ -1,0 +1,31 @@
+# MIDI note/CC name map
+70 China Splash Choke 70
+69 China Splash 69
+65 Hi hat left foot 65
+64 Hi hat fully closed 64
+63 Hi hat fully closed 63
+62 Hi hat more closed 62
+61 Hi Hat semi closed 61
+60 Hi hat open 60
+59 Ride Cymbal Hit 59
+58 Right Crash Choke 58
+57 Right Crash 57
+56 Splash Choke 56
+55 Splash 55
+54 Left Crash Choke 54
+53 Ride Cymbal Bell 53
+52 Right China 52
+51 Ride Cymbal Rim 51
+50 Right China Choke 50
+49 Left Crash 49
+48 zilbell 48
+47 hi tom 47
+43 floor tom 43
+38 Snare 38
+36 Kick 36
+30 China Choke 30
+29 China Hit 29
+27 Right Crash 2 Choke 27
+26 Right Crash 2 hit 26
+25 Left Crash 2 Choke 25
+24 Left Crash 2 hit 24

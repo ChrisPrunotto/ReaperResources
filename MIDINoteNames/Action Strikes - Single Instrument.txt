@@ -1,0 +1,44 @@
+# MIDI note/CC name map
+95 Accent Rhythm 12
+94 Accent Rhythm 11
+93 Accent Rhythm 10
+92 Accent Rhythm 9
+91 Accent Rhythm 8
+90 Accent Rhythm 7
+89 Accent Rhythm 6
+88 Accent Rhythm 5
+87 Accent Rhythm 4
+86 Accent Rhythm 3
+85 Accent Rhythm 2
+84 Accent Rhythm 1
+83 Accent Rhythm 12
+82 Accent Rhythm 11
+81 Accent Rhythm 10
+80 Accent Rhythm 9
+79 Accent Rhythm 8
+78 Accent Rhythm 7
+77 Accent Rhythm 6
+76 Accent Rhythm 5
+75 Accent Rhythm 4
+74 Accent Rhythm 3
+73 Accent Rhythm 2
+72 Accent Rhythm 1
+71 Basic Rhythm 12
+70 Basic Rhythm 11
+69 Basic Rhythm 10
+68 Basic Rhythm 9
+67 Basic Rhythm 8
+66 Basic Rhythm 7
+65 Basic Rhythm 6
+64 Basic Rhythm 5
+63 Basic Rhythm 4
+62 Basic Rhythm 3
+61 Basic Rhythm 2
+60 Basic Rhythm 1
+59 Rolls & Flams 5
+57 Rolls & Flams 4
+55 Rolls & Flams 3
+53 Rolls & Flams 2
+52 Rolls & Flams 1
+50 Hits 2
+48 Hits 1
