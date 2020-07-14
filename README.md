@@ -32,3 +32,7 @@ Files related to Mackie Control. This entire directory should be placed in Docum
 ## MIDINoteNames
 
 A collection of files related to the midi mapping named notes editor.
+
+## Scripts
+
+REAPER scripts. This folder should be placed within the Reaper Resources Path within the Scripts folder. All of my scripts are prefixed with "CP_". 
